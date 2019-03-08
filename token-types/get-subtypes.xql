@@ -3,8 +3,8 @@ declare namespace request = "http://exist-db.org/xquery/request";
 declare namespace nuds = "http://nomisma.org/nuds";
 declare namespace xlink = "http://www.w3.org/1999/xlink";
 
-let $collection-name:= substring-before(substring-after(request:get-uri(), '/exist/rest/db/'), '/')
-let $identifiers:= request:get-parameter("identifiers",0)
+let $collection-name := substring-before(substring-after(request:get-uri(), '/exist/rest/db/'), '/')
+let $identifiers := request:get-parameter("identifiers", 0)
 let $sequence := tokenize($identifiers, '\|')
 return
     <response

@@ -1,62 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>ostiatermedelnuotatore1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-28T10:16:47.246+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-08-28T10:25:09.668+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent>
-        <maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-08-28T10:35:05.689+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia Terme del Nuotatore 1</title>
-						<physDesc>
-            <shape>circle</shape>
-        </physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/ostia27">
-							
-						</typeDesc>
-						<adminDesc/>
-					<refDesc>
-            <reference>
-					<tei:title>Carandini, A. and C. Panella, Eds. (1977). Ostia IV. Le Terme del Nuotatore. Scavo dell'ambiente XVI e dell'area XXV. (Studi Miscellanei 23). Rome, p. 391</tei:title>
-				</reference>
-        </refDesc>
-        <findspotDesc>
-					<findspot>
-                <description xml:lang="en">Ostia, Terme del Nuotatore. Excavations of area XXV of the Baths of the Swimmer in Ostia by Carandini et al. 1977. The token was found in strata VA, which is dated to c. AD 80-90 (p. 391).</description>
-						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
-							</gml:Point>
-            </findspot>
-				</findspotDesc>
-    </descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>ostiatermedelnuotatore1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-28T10:16:47.246+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-08-28T10:25:09.668+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-08-28T10:35:05.689+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia Terme del Nuotatore 1</title>
+		<physDesc>
+			<shape>circle</shape>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/ostia27"> </typeDesc>
+		<adminDesc/>
+		<refDesc>
+			<reference>
+				<tei:title>Carandini, A. and C. Panella, Eds. (1977). Ostia IV. Le Terme del
+					Nuotatore. Scavo dell'ambiente XVI e dell'area XXV. (Studi Miscellanei 23).
+					Rome, p. 391</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Ostia, Terme del Nuotatore. Excavations of area XXV of
+					the Baths of the Swimmer in Ostia by Carandini et al. 1977. The token was found
+					in strata VA, which is dated to c. AD 80-90 (p. 391).</description>
+				<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

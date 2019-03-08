@@ -1,61 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>ostiacasermadeivigili3</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-28T11:13:42.07+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-12-05T13:20:16.847Z"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia Antiquarium inv. 4891.2</title>
-						<physDesc>
-            <shape>circle</shape>
-        </physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/TURS869">
-							
-						</typeDesc>
-						<adminDesc/>
-					<noteSet>
-            <note>The type is that recorded by Vaglieri in NSc., who notes that for the other specimens (inv. 4891.1) he could read on one side CVR and on the other side M... with a type that seemed to be TURS 869. He noted that this specimen was in a poor state of preservation, but seemed to be of the same type. The identification is thus not definitive.</note>
-        </noteSet>
-        <refDesc>
-            <reference>
-					<tei:title>NSc. 1912, p. 26</tei:title>
-				</reference>
-        <reference>
-					<tei:title>Giornale degli Scavi 1911, no 4 p. 239</tei:title>
-				</reference></refDesc>
-        <findspotDesc>
-					<findspot>
-                <description xml:lang="en">stia, Caserma dei Vigili. Excavations of the porticus in front of rooms 1 and 2, on the north side of the caserma, the first half on the right as one enters. Two tokens were found, both seemingly of the same type.</description>
-						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
-							</gml:Point>
-            </findspot>
-				</findspotDesc>
-    </descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>ostiacasermadeivigili3</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-28T11:13:42.07+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-12-05T13:20:16.847Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia Antiquarium inv. 4891.2</title>
+		<physDesc>
+			<shape>circle</shape>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/TURS869"> </typeDesc>
+		<adminDesc/>
+		<noteSet>
+			<note>The type is that recorded by Vaglieri in NSc., who notes that for the other
+				specimens (inv. 4891.1) he could read on one side CVR and on the other side M...
+				with a type that seemed to be TURS 869. He noted that this specimen was in a poor
+				state of preservation, but seemed to be of the same type. The identification is thus
+				not definitive.</note>
+		</noteSet>
+		<refDesc>
+			<reference>
+				<tei:title>NSc. 1912, p. 26</tei:title>
+			</reference>
+			<reference>
+				<tei:title>Giornale degli Scavi 1911, no 4 p. 239</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">stia, Caserma dei Vigili. Excavations of the porticus in
+					front of rooms 1 and 2, on the north side of the caserma, the first half on the
+					right as one enters. Two tokens were found, both seemingly of the same
+					type.</description>
+				<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

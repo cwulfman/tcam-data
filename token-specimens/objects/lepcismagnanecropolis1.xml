@@ -1,44 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>lepcismagnanecropolis1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-06-25T16:04:50.299+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Lepcis Magna Necropolis 1</title>
-						<physDesc><axis>1</axis><measurementsSet><diameter>18.5</diameter><weight units="g">2.4</weight></measurementsSet><shape>circle</shape></physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/cohenviiip.72no55">
-							
-						</typeDesc>
-						<adminDesc/>
-					<refDesc><reference>
-					<tei:title>Di Vita-Evrard, G., S. Fontana and M. Munzi (1997). Le necropoli di Leptis Magna III. Une tombe hypogée de la nécropole occidentale: Laurentii ou Claudii? Libya Antiqua 3: 119-138.</tei:title>
-				</reference></refDesc><findspotDesc>
-					<findspot><description xml:lang="en">Lepcis Magna, hypogeum.
-Emergency excavations carried out after a hypogeum of unusual design was found in 1981, 300m west of Wadi er-Rsaf, between the military barracks and the sea. The materials from the site suggest the hypogeum began to be used in the first decades of the second century AD and was used for two or three generations, 30-60 years or so. The token was found in a coffin-shaped limestone urn, which was placed in the second room in the second niche on the right, and which had painted in red the name Ti(berius) Clau[di]/us Orf[i]/tus. Osteological analysis of the bones in the urn revealed that they were those of an adult male. The Ti. Claudii in Lepcis had an elevated social rank in the second half of the 1st century AD and the 2nd century AD</description>
-						<geogname xlink:role="findspot">Lepcis Magna (Africa)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>32.6379575, 14.291378</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>lepcismagnanecropolis1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-06-25T16:04:50.299+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Lepcis Magna Necropolis 1</title>
+		<physDesc>
+			<axis>1</axis>
+			<measurementsSet>
+				<diameter>18.5</diameter>
+				<weight units="g">2.4</weight>
+			</measurementsSet>
+			<shape>circle</shape>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/cohenviiip.72no55"> </typeDesc>
+		<adminDesc/>
+		<refDesc>
+			<reference>
+				<tei:title>Di Vita-Evrard, G., S. Fontana and M. Munzi (1997). Le necropoli di
+					Leptis Magna III. Une tombe hypogée de la nécropole occidentale: Laurentii ou
+					Claudii? Libya Antiqua 3: 119-138.</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Lepcis Magna, hypogeum. Emergency excavations carried out
+					after a hypogeum of unusual design was found in 1981, 300m west of Wadi er-Rsaf,
+					between the military barracks and the sea. The materials from the site suggest
+					the hypogeum began to be used in the first decades of the second century AD and
+					was used for two or three generations, 30-60 years or so. The token was found in
+					a coffin-shaped limestone urn, which was placed in the second room in the second
+					niche on the right, and which had painted in red the name Ti(berius) Clau[di]/us
+					Orf[i]/tus. Osteological analysis of the bones in the urn revealed that they
+					were those of an adult male. The Ti. Claudii in Lepcis had an elevated social
+					rank in the second half of the 1st century AD and the 2nd century
+					AD</description>
+				<geogname xlink:role="findspot">Lepcis Magna (Africa)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>32.6379575, 14.291378</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

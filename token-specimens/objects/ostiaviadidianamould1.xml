@@ -1,46 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>ostiaviadidianamould1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-11-21T10:09:00.984Z"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia Antiquarium inv. 9535</title>
-						<physDesc><measurementsSet><height>145</height><width>125</width></measurementsSet></physDesc>
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
-						<dateRange>
-								<fromDate standardDate="0001">A.D. 1</fromDate>
-								<toDate standardDate="0300">A.D. 300</toDate>
-							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material><obverse><type><description xml:lang="en">Half of a palombino marble mould for 11 circular tokens of 11mm (of which three are missing - the lower right corner has broken off), all decorated with the head of Sarapis. A central casting channel and smaller channels coming off it are present; on the upper left corner is a nail hole.</description></type><persname xlink:type="simple" xlink:role="deity">Sarapis</persname></obverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
-						<adminDesc><collection>Ostia Antiquarium</collection></adminDesc>
-					<refDesc><reference>
-					<tei:title>Giornale degli Scavi no. 8 1915 p. 45</tei:title>
-				</reference></refDesc><findspotDesc>
-					<findspot><description xml:lang="en">Ostia, via di Diana. Excavations in January 1915 along the via di Diana, including the SW corner of the House of Diana.</description>
-						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>ostiaviadidianamould1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-11-21T10:09:00.984Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia Antiquarium inv. 9535</title>
+		<physDesc>
+			<measurementsSet>
+				<height>145</height>
+				<width>125</width>
+			</measurementsSet>
+		</physDesc>
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+			<dateRange>
+				<fromDate standardDate="0001">A.D. 1</fromDate>
+				<toDate standardDate="0300">A.D. 300</toDate>
+			</dateRange>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble"
+				>Palombino Marble</material>
+			<obverse>
+				<type>
+					<description xml:lang="en">Half of a palombino marble mould for 11 circular
+						tokens of 11mm (of which three are missing - the lower right corner has
+						broken off), all decorated with the head of Sarapis. A central casting
+						channel and smaller channels coming off it are present; on the upper left
+						corner is a nail hole.</description>
+				</type>
+				<persname xlink:type="simple" xlink:role="deity">Sarapis</persname>
+			</obverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+		<adminDesc>
+			<collection>Ostia Antiquarium</collection>
+		</adminDesc>
+		<refDesc>
+			<reference>
+				<tei:title>Giornale degli Scavi no. 8 1915 p. 45</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Ostia, via di Diana. Excavations in January 1915 along
+					the via di Diana, including the SW corner of the House of Diana.</description>
+				<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

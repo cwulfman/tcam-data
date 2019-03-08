@@ -1,60 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>rome_mould_1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-06-21T11:24:26.83+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-06-21T11:35:19.098+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent>
-        <maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-07-10T08:54:01.793+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Rome Mould 1</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
-						<dateRange>
-								<fromDate standardDate="-0050">50 B.C.</fromDate>
-								<toDate standardDate="0068">A.D. 68</toDate>
-							</dateRange>
-            <obverse>
-                <type>
-                    
-                <description xml:lang="en">Mould for 9 circular tokens of c. 7mm, with casting channels and the remnants of iron nails in the top left and lower right corners. All the tokens carry the same design: V.F. </description></type>
-                <legend>VF</legend>
-            </obverse>
-            <material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material>
-            <geographic>
-                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
-            </geographic>
-        </typeDesc>
-						
-					</descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>rome_mould_1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-06-21T11:24:26.83+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-06-21T11:35:19.098+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-07-10T08:54:01.793+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Rome Mould 1</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+			<dateRange>
+				<fromDate standardDate="-0050">50 B.C.</fromDate>
+				<toDate standardDate="0068">A.D. 68</toDate>
+			</dateRange>
+			<obverse>
+				<type>
+
+					<description xml:lang="en">Mould for 9 circular tokens of c. 7mm, with casting
+						channels and the remnants of iron nails in the top left and lower right
+						corners. All the tokens carry the same design: V.F. </description>
+				</type>
+				<legend>VF</legend>
+			</obverse>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble"
+				>Palombino Marble</material>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+
+	</descMeta>
+</nuds>

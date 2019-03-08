@@ -1,46 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>sardis216.5</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-10-29T14:17:13.816Z"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Sardis 216.5</title>
-						<physDesc><measurementsSet><height>20</height><weight units="g">4.4</weight><width>25</width></measurementsSet><shape>quadrangular?</shape></physDesc>
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<obverse><type><description xml:lang="en">Bare head of Augustus right</description></type><legend>SC</legend><persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/augustus">Augustus</persname></obverse><dateRange>
-								<fromDate standardDate="-0027">27 B.C.</fromDate>
-								<toDate standardDate="0014">A.D. 14</toDate>
-							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material><reverse><type><description xml:lang="en">obscure (wreath?)</description></type></reverse></typeDesc>
-						<adminDesc/>
-					<findspotDesc>
-					<findspot><description xml:lang="en">Sardis, unstratified.</description>
-						<geogname xlink:role="findspot">Sardes (Turkey)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>38.48856, 28.04041</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc><refDesc><reference>
-					<tei:title>DeRose Evans, J. (2018). Coins from the Excavations at Sardis, Their Archaeological and Economic Contexts. Coins from the 1973 to 2013 Excavations. Cambridge, MA, Harvard University Press.</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>sardis216.5</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-10-29T14:17:13.816Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Sardis 216.5</title>
+		<physDesc>
+			<measurementsSet>
+				<height>20</height>
+				<weight units="g">4.4</weight>
+				<width>25</width>
+			</measurementsSet>
+			<shape>quadrangular?</shape>
+		</physDesc>
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<obverse>
+				<type>
+					<description xml:lang="en">Bare head of Augustus right</description>
+				</type>
+				<legend>SC</legend>
+				<persname xlink:type="simple" xlink:role="portrait"
+					xlink:href="http://nomisma.org/id/augustus">Augustus</persname>
+			</obverse>
+			<dateRange>
+				<fromDate standardDate="-0027">27 B.C.</fromDate>
+				<toDate standardDate="0014">A.D. 14</toDate>
+			</dateRange>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck"
+				>Struck</manufacture>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+			<reverse>
+				<type>
+					<description xml:lang="en">obscure (wreath?)</description>
+				</type>
+			</reverse>
+		</typeDesc>
+		<adminDesc/>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Sardis, unstratified.</description>
+				<geogname xlink:role="findspot">Sardes (Turkey)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>38.48856, 28.04041</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+		<refDesc>
+			<reference>
+				<tei:title>DeRose Evans, J. (2018). Coins from the Excavations at Sardis, Their
+					Archaeological and Economic Contexts. Coins from the 1973 to 2013 Excavations.
+					Cambridge, MA, Harvard University Press.</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

@@ -1,46 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>Cav.Piacentini</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2019-01-14T14:54:09.7Z"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Cav. Piacentini Mould</title>
-						<physDesc/>
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
-						<dateRange>
-								<fromDate standardDate="0001">A.D. 1</fromDate>
-								<toDate standardDate="0300">A.D. 300</toDate>
-							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material><obverse><type><description xml:lang="en">Mould for tokens of uncertain design. No description is given in the publication.</description></type></obverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
-						<adminDesc/>
-					<refDesc><reference>
-					<tei:title>NSc. 1907 p. 348</tei:title>
-				</reference></refDesc><findspotDesc>
-					<findspot><description xml:lang="en">Rome, via Flaminia. From a tufa quarry on the property of “Cav. Piacentini”, between the 8th and 9th kilometer to the left of the via Flaminia. A short distance away was the remains of walls in opus reticulatum and a mosaic floor, likely the remains of a Roman villa.</description>
-						<geogname xlink:role="findspot">Rome (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.891775, 12.486137</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>Cav.Piacentini</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2019-01-14T14:54:09.7Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Cav. Piacentini Mould</title>
+		<physDesc/>
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+			<dateRange>
+				<fromDate standardDate="0001">A.D. 1</fromDate>
+				<toDate standardDate="0300">A.D. 300</toDate>
+			</dateRange>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble"
+				>Palombino Marble</material>
+			<obverse>
+				<type>
+					<description xml:lang="en">Mould for tokens of uncertain design. No description
+						is given in the publication.</description>
+				</type>
+			</obverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+		<adminDesc/>
+		<refDesc>
+			<reference>
+				<tei:title>NSc. 1907 p. 348</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Rome, via Flaminia. From a tufa quarry on the property of
+					“Cav. Piacentini”, between the 8th and 9th kilometer to the left of the via
+					Flaminia. A short distance away was the remains of walls in opus reticulatum and
+					a mosaic floor, likely the remains of a Roman villa.</description>
+				<geogname xlink:role="findspot">Rome (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.891775, 12.486137</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

@@ -1,43 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>portusbasilica1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-29T16:35:24.784+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Portus Basilica Portuense 1</title>
-						<physDesc><measurementsSet><diameter>22</diameter><weight units="g">6.1</weight></measurementsSet><shape>circle</shape></physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/TURS61">
-							
-						</typeDesc>
-						<adminDesc/>
-					<noteSet><note>The token is very worn and Spagnoli notes it is merely very similar to this type.</note></noteSet><refDesc><reference>
-					<tei:title>Spagnoli, E. (2011). Materiali numismatici da contesti portuensi. Portus and its Hinterland: Recent Archaeological Research. S. Keay and L. Paroli. London, The British School at Rome: 215</tei:title>
-				</reference></refDesc><findspotDesc>
-					<findspot><description xml:lang="en">Portus, Basilica Portuense (PTII). Found in a stratum dating to Period 3c (AD550-600), a stratum associated with the construction of the central nave (US2020). Also found was a radiate consecratio issue of Claudius II and numismatic material dating to the fourth and fifth centuries AD.</description>
-						<geogname xlink:role="findspot">Portus (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.778790975, 12.258466</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>portusbasilica1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-29T16:35:24.784+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Portus Basilica Portuense 1</title>
+		<physDesc>
+			<measurementsSet>
+				<diameter>22</diameter>
+				<weight units="g">6.1</weight>
+			</measurementsSet>
+			<shape>circle</shape>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/TURS61"> </typeDesc>
+		<adminDesc/>
+		<noteSet>
+			<note>The token is very worn and Spagnoli notes it is merely very similar to this
+				type.</note>
+		</noteSet>
+		<refDesc>
+			<reference>
+				<tei:title>Spagnoli, E. (2011). Materiali numismatici da contesti portuensi. Portus
+					and its Hinterland: Recent Archaeological Research. S. Keay and L. Paroli.
+					London, The British School at Rome: 215</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Portus, Basilica Portuense (PTII). Found in a stratum
+					dating to Period 3c (AD550-600), a stratum associated with the construction of
+					the central nave (US2020). Also found was a radiate consecratio issue of
+					Claudius II and numismatic material dating to the fourth and fifth centuries
+					AD.</description>
+				<geogname xlink:role="findspot">Portus (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.778790975, 12.258466</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

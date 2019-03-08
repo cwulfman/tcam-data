@@ -1,40 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>mitchiner2</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-28T15:58:00.315+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Mitchiner 2</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<dateRange>
-								<fromDate standardDate="0041">A.D. 41</fromDate>
-								<toDate standardDate="0054">A.D. 54</toDate>
-							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type/><legend>CLAV</legend></obverse><reverse><legend>AND</legend></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
-						
-					<noteSet><note>Mitchiner believed the legends referred to the emperor Claudius and his mother, Antonia Drusi, and suggested the token was made shortly after her deification in 41.</note></noteSet><refDesc><reference>
-					<tei:title>Mitchiner, M. (1984). Rome: Imperial portrait tesserae from the city of Rome and imperial tax tokens from the province of Egypt. Numismatic Chronicle 144: 95-114.</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>mitchiner2</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-28T15:58:00.315+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Mitchiner 2</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<dateRange>
+				<fromDate standardDate="0041">A.D. 41</fromDate>
+				<toDate standardDate="0054">A.D. 54</toDate>
+			</dateRange>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast"
+				>Cast</manufacture>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+			<obverse>
+				<type/>
+				<legend>CLAV</legend>
+			</obverse>
+			<reverse>
+				<legend>AND</legend>
+			</reverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+
+		<noteSet>
+			<note>Mitchiner believed the legends referred to the emperor Claudius and his mother,
+				Antonia Drusi, and suggested the token was made shortly after her deification in
+				41.</note>
+		</noteSet>
+		<refDesc>
+			<reference>
+				<tei:title>Mitchiner, M. (1984). Rome: Imperial portrait tesserae from the city of
+					Rome and imperial tax tokens from the province of Egypt. Numismatic Chronicle
+					144: 95-114.</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

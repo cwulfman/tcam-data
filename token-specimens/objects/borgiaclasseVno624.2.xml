@@ -1,46 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>borgiaclasseVno624.2</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2019-01-14T14:45:12.68Z"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Borgia Collection, Classe V no. 624.2</title>
-						<physDesc><measurementsSet><height>106</height><width>102</width></measurementsSet></physDesc>
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
-						<dateRange>
-								<fromDate standardDate="0001">A.D. 1</fromDate>
-								<toDate standardDate="0300">A.D. 300</toDate>
-							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material><obverse><type><description xml:lang="en">Mould half for 3 square tokens of c. 12.5x13mm carrying the legend AF above P and 3 tokens in the shape of a tabula ansata with the legend MS above A.</description></type><legend>AF P ; MS A</legend></obverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
-						<adminDesc><collection>Museo Nazionale di Napoli</collection></adminDesc>
-					<refDesc><reference>
-					<tei:title>Giglioli, G. Q. (1913). Due matrici di tessere plumblee. Ausonia. Rivista della società italiana di archeologia e storia dell'arte 7: 3-6.</tei:title>
-				</reference></refDesc><findspotDesc>
-					<findspot><description xml:lang="en">Since Cardinal Borgia’s collection was mainly assembled from objects found in Rome, the mould is believed to come from the city.</description>
-						<geogname xlink:role="findspot">Rome (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.891775, 12.486137</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>borgiaclasseVno624.2</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2019-01-14T14:45:12.68Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Borgia Collection, Classe V no. 624.2</title>
+		<physDesc>
+			<measurementsSet>
+				<height>106</height>
+				<width>102</width>
+			</measurementsSet>
+		</physDesc>
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+			<dateRange>
+				<fromDate standardDate="0001">A.D. 1</fromDate>
+				<toDate standardDate="0300">A.D. 300</toDate>
+			</dateRange>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble"
+				>Palombino Marble</material>
+			<obverse>
+				<type>
+					<description xml:lang="en">Mould half for 3 square tokens of c. 12.5x13mm
+						carrying the legend AF above P and 3 tokens in the shape of a tabula ansata
+						with the legend MS above A.</description>
+				</type>
+				<legend>AF P ; MS A</legend>
+			</obverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+		<adminDesc>
+			<collection>Museo Nazionale di Napoli</collection>
+		</adminDesc>
+		<refDesc>
+			<reference>
+				<tei:title>Giglioli, G. Q. (1913). Due matrici di tessere plumblee. Ausonia. Rivista
+					della società italiana di archeologia e storia dell'arte 7: 3-6.</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Since Cardinal Borgia’s collection was mainly assembled
+					from objects found in Rome, the mould is believed to come from the
+					city.</description>
+				<geogname xlink:role="findspot">Rome (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.891775, 12.486137</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

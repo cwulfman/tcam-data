@@ -1,71 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>asinabnf1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-07-10T14:40:40.239+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-07-10T18:00:57.949+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent>
-        <maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-07-12T17:45:02.471+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en"> Bibliothèque nationale de France 1</title>
-						<physDesc>
-            <measurementsSet>
-                <diameter>20</diameter>
-                <weight units="g">3.05</weight>
-            </measurementsSet>
-            <shape>circle</shape>
-        </physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/alfoeldi_asina1">
-							
-						</typeDesc>
-						<adminDesc>
-            <collection> Bibliothèque nationale de France</collection>
-        </adminDesc>
-					<noteSet>
-            <note>Now lost. Held in the Bibliothèque nationale de France until the date of the publication of Furio Lenzi (1913), who published the photo of the mould of it.</note>
-        </noteSet>
-        <refDesc>
-            <reference>
-					<tei:title>D.B. de Montfaucon, L’antiquité expliquée et représentée en figures. Tome second, II, Paris 1719, pp. 372-373</tei:title>
-				</reference>
-        <reference>
-					<tei:title>H. Cohen, Description Historique des Monnaies frappées sous l’empire romain communément appelées médailles imperials, Paris 1892, VIII, p. 323, no. 403.</tei:title>
-				</reference>
-            <reference>
-					<tei:title>F. Lenzi, 'Di alcune medaglie religiose del IV secolo', Bilychnis 2, 1913, pp. 113-131</tei:title>
-				</reference>
-            <reference>
-					<tei:title>A. Alföldi, 'Asina. Eine dritte Gruppe heidnischer Neujahrsmünzen im spätantiken Rom', GNS 2 (7), 1951, pp. 57-66</tei:title>
-				</reference>
-        </refDesc>
-    </descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>asinabnf1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-07-10T14:40:40.239+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-07-10T18:00:57.949+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-07-12T17:45:02.471+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en"> Bibliothèque nationale de France 1</title>
+		<physDesc>
+			<measurementsSet>
+				<diameter>20</diameter>
+				<weight units="g">3.05</weight>
+			</measurementsSet>
+			<shape>circle</shape>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/alfoeldi_asina1"> </typeDesc>
+		<adminDesc>
+			<collection> Bibliothèque nationale de France</collection>
+		</adminDesc>
+		<noteSet>
+			<note>Now lost. Held in the Bibliothèque nationale de France until the date of the
+				publication of Furio Lenzi (1913), who published the photo of the mould of
+				it.</note>
+		</noteSet>
+		<refDesc>
+			<reference>
+				<tei:title>D.B. de Montfaucon, L’antiquité expliquée et représentée en figures. Tome
+					second, II, Paris 1719, pp. 372-373</tei:title>
+			</reference>
+			<reference>
+				<tei:title>H. Cohen, Description Historique des Monnaies frappées sous l’empire
+					romain communément appelées médailles imperials, Paris 1892, VIII, p. 323, no.
+					403.</tei:title>
+			</reference>
+			<reference>
+				<tei:title>F. Lenzi, 'Di alcune medaglie religiose del IV secolo', Bilychnis 2,
+					1913, pp. 113-131</tei:title>
+			</reference>
+			<reference>
+				<tei:title>A. Alföldi, 'Asina. Eine dritte Gruppe heidnischer Neujahrsmünzen im
+					spätantiken Rom', GNS 2 (7), 1951, pp. 57-66</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

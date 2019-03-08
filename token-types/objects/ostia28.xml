@@ -1,40 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>ostia28</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-28T10:31:52.465+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia 28</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<dateRange>
-								<fromDate standardDate="0001">A.D. 1</fromDate>
-								<toDate standardDate="0225">A.D. 225</toDate>
-							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type><description xml:lang="en">Palm branch</description></type></obverse><reverse><type><description xml:lang="en">Legend</description></type><legend>P M</legend></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
-						
-					<noteSet><note>Terminus ante quem provided by archaeological context. No image was provided in the volume in order to check the description given of the type.</note></noteSet><refDesc><reference>
-					<tei:title>Carandini, A. and C. Panella, Eds. (1977). Ostia IV. Le Terme del Nuotatore. Scavo dell'ambiente XVI e dell'area XXV. (Studi Miscellanei 23). Rome, p. 391</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>ostia28</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-28T10:31:52.465+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia 28</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<dateRange>
+				<fromDate standardDate="0001">A.D. 1</fromDate>
+				<toDate standardDate="0225">A.D. 225</toDate>
+			</dateRange>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast"
+				>Cast</manufacture>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+			<obverse>
+				<type>
+					<description xml:lang="en">Palm branch</description>
+				</type>
+			</obverse>
+			<reverse>
+				<type>
+					<description xml:lang="en">Legend</description>
+				</type>
+				<legend>P M</legend>
+			</reverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+
+		<noteSet>
+			<note>Terminus ante quem provided by archaeological context. No image was provided in
+				the volume in order to check the description given of the type.</note>
+		</noteSet>
+		<refDesc>
+			<reference>
+				<tei:title>Carandini, A. and C. Panella, Eds. (1977). Ostia IV. Le Terme del
+					Nuotatore. Scavo dell'ambiente XVI e dell'area XXV. (Studi Miscellanei 23).
+					Rome, p. 391</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

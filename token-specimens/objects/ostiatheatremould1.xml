@@ -1,68 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>ostiatheatremould1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-24T13:47:54.16+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-11-23T10:54:54.502Z"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent>
-        <maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-11-23T12:09:46.543Z"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia Theatre Mould 1</title>
-						<physDesc>
-            <measurementsSet>
-                <height>124</height>
-                <width>145</width>
-            </measurementsSet>
-        </physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/ostia_mould_15">
-							
-						</typeDesc>
-						<adminDesc/>
-					<refDesc>
-            <reference>
-					<tei:title>NSc. 1913, 132.</tei:title>
-				</reference>
-        </refDesc>
-        <findspotDesc>
-					<findspot>
-                <description xml:lang="en">Ostia, theatre. Excavations at the back of the second taberna in the NE corner. The giornale records that the mould was found behind the 'botteca' under the cavea of the theatre in the second taberna. The fill in this area comes from the internal tabernae in the theatre. Two strata were visible - the one below composed of earth and small traces of fire, with that above containing lots of disordered material, likely from earlier excavations/diggings from ancient times. The finds listed (including the mould) are from the lower layer.</description>
-						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
-							</gml:Point>
-            </findspot>
-				</findspotDesc>
-    <noteSet>
-            <note>Probably also the same mould as recorded in Giornale degli Scavi 1913, p. 30 inv. no. 6976. The Giornale records a mould half for SEVEN round tokens of 9mm without design, 142x145mm. The NSc. records 9 tokens and gives the dimensions as 124x145mm. </note>
-        </noteSet>
-    </descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>ostiatheatremould1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-24T13:47:54.16+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-11-23T10:54:54.502Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-11-23T12:09:46.543Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia Theatre Mould 1</title>
+		<physDesc>
+			<measurementsSet>
+				<height>124</height>
+				<width>145</width>
+			</measurementsSet>
+		</physDesc>
+		<typeDesc
+			xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/ostia_mould_15"> </typeDesc>
+		<adminDesc/>
+		<refDesc>
+			<reference>
+				<tei:title>NSc. 1913, 132.</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Ostia, theatre. Excavations at the back of the second
+					taberna in the NE corner. The giornale records that the mould was found behind
+					the 'botteca' under the cavea of the theatre in the second taberna. The fill in
+					this area comes from the internal tabernae in the theatre. Two strata were
+					visible - the one below composed of earth and small traces of fire, with that
+					above containing lots of disordered material, likely from earlier
+					excavations/diggings from ancient times. The finds listed (including the mould)
+					are from the lower layer.</description>
+				<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+		<noteSet>
+			<note>Probably also the same mould as recorded in Giornale degli Scavi 1913, p. 30 inv.
+				no. 6976. The Giornale records a mould half for SEVEN round tokens of 9mm without
+				design, 142x145mm. The NSc. records 9 tokens and gives the dimensions as 124x145mm.
+			</note>
+		</noteSet>
+	</descMeta>
+</nuds>

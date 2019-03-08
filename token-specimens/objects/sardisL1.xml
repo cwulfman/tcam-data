@@ -1,46 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>sardisL1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-10-29T14:36:39.765Z"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Sardis L1</title>
-						<physDesc><axis>7</axis><measurementsSet><diameter>11</diameter><weight units="g">2.74</weight></measurementsSet><shape>circle</shape></physDesc>
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<dateRange>
-								<fromDate standardDate="0000">A.D. 0</fromDate>
-								<toDate standardDate="0050">A.D. 50</toDate>
-							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type><description xml:lang="en">Artmis Ephesia</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57039">Artemis/Diana</persname></obverse><reverse><type><description xml:lang="en">Bee with straight wings in linear border.</description></type></reverse></typeDesc>
-						<adminDesc/>
-					<noteSet><note>Date given by archaeological context. DeRose Evans notes that a double sided token with this pairing of imagery can be found in Gülbay and Kireç no. 107.</note></noteSet><refDesc><reference>
-					<tei:title>DeRose Evans, J. (2018). Coins from the Excavations at Sardis, Their Archaeological and Economic Contexts. Coins from the 1973 to 2013 Excavations. Cambridge, MA, Harvard University Press.</tei:title>
-				</reference></refDesc><findspotDesc>
-					<findspot><description xml:lang="en">Sardis, Field 49, fill associated with the clean up of the area after the earthquake of AD 17.</description>
-						<geogname xlink:role="findspot">Sardes (Turkey)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>38.48856, 28.04041</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>sardisL1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-10-29T14:36:39.765Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Sardis L1</title>
+		<physDesc>
+			<axis>7</axis>
+			<measurementsSet>
+				<diameter>11</diameter>
+				<weight units="g">2.74</weight>
+			</measurementsSet>
+			<shape>circle</shape>
+		</physDesc>
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<dateRange>
+				<fromDate standardDate="0000">A.D. 0</fromDate>
+				<toDate standardDate="0050">A.D. 50</toDate>
+			</dateRange>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+			<obverse>
+				<type>
+					<description xml:lang="en">Artmis Ephesia</description>
+				</type>
+				<persname xlink:type="simple" xlink:role="deity"
+					xlink:href="http://collection.britishmuseum.org/id/person-institution/57039"
+					>Artemis/Diana</persname>
+			</obverse>
+			<reverse>
+				<type>
+					<description xml:lang="en">Bee with straight wings in linear
+						border.</description>
+				</type>
+			</reverse>
+		</typeDesc>
+		<adminDesc/>
+		<noteSet>
+			<note>Date given by archaeological context. DeRose Evans notes that a double sided token
+				with this pairing of imagery can be found in Gülbay and Kireç no. 107.</note>
+		</noteSet>
+		<refDesc>
+			<reference>
+				<tei:title>DeRose Evans, J. (2018). Coins from the Excavations at Sardis, Their
+					Archaeological and Economic Contexts. Coins from the 1973 to 2013 Excavations.
+					Cambridge, MA, Harvard University Press.</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Sardis, Field 49, fill associated with the clean up of
+					the area after the earthquake of AD 17.</description>
+				<geogname xlink:role="findspot">Sardes (Turkey)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>38.48856, 28.04041</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

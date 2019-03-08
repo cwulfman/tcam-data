@@ -1,45 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>aquileiamarignane1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-10-15T17:01:51.581+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Aquileia Marignane 1</title>
-						<physDesc><countermark><obverse><mark>
-					<description>C</description>
-				</mark></obverse></countermark></physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/aquileia1">
-							
-						</typeDesc>
-						<adminDesc/>
-					<findspotDesc>
-					<findspot><description xml:lang="en">Aquileia, region of the Circus. Maionica reports the piece was almost certainly found in the region of Marignane, Area E on the 'Fundkarte von Aquileia', which contains the remains of the circus.</description>
-						<geogname xlink:role="findspot">Aquileia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>45.7683, 13.36779</gml:coordinates>
-							</gml:Point></findspot>
-				</findspotDesc><refDesc><reference>
-					<tei:title>Maionica, E. (1899). Chrysopolis Aquileja. Jahreshefte des Oesterreichische Archäologische Institutes in Wien 2: 105-106.</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>aquileiamarignane1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-10-15T17:01:51.581+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Aquileia Marignane 1</title>
+		<physDesc>
+			<countermark>
+				<obverse>
+					<mark>
+						<description>C</description>
+					</mark>
+				</obverse>
+			</countermark>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/aquileia1"> </typeDesc>
+		<adminDesc/>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Aquileia, region of the Circus. Maionica reports the
+					piece was almost certainly found in the region of Marignane, Area E on the
+					'Fundkarte von Aquileia', which contains the remains of the
+					circus.</description>
+				<geogname xlink:role="findspot">Aquileia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>45.7683, 13.36779</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+		<refDesc>
+			<reference>
+				<tei:title>Maionica, E. (1899). Chrysopolis Aquileja. Jahreshefte des
+					Oesterreichische Archäologische Institutes in Wien 2: 105-106.</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

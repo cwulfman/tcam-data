@@ -1,40 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>TURS3572</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-09T11:16:00.333+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">TURS 3572 Mould</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
-						<dateRange>
-								<fromDate standardDate="0001">A.D. 1</fromDate>
-								<toDate standardDate="0300">A.D. 300</toDate>
-							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material><obverse><type><description xml:lang="en">Two moulds for 5 square tokens of 14x16mm. One mould half is decorated with Isis standing right holding situla in right hand and sistrum in left and contains a central casting channel; the other mould half is decorated with a sistrum and has a central casting channel and branches going off it </description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/54025">Isis</persname></obverse></typeDesc>
-						
-					<refDesc><reference>
-					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg. </tei:title>
-				<tei:idno>Ficoroni, F. (1740). I piombi antichi. Rome, Girolamo Mainardi. p. 166 no. 1</tei:idno></reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>TURS3572</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-09T11:16:00.333+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">TURS 3572 Mould</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+			<dateRange>
+				<fromDate standardDate="0001">A.D. 1</fromDate>
+				<toDate standardDate="0300">A.D. 300</toDate>
+			</dateRange>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble"
+				>Palombino Marble</material>
+			<obverse>
+				<type>
+					<description xml:lang="en">Two moulds for 5 square tokens of 14x16mm. One mould
+						half is decorated with Isis standing right holding situla in right hand and
+						sistrum in left and contains a central casting channel; the other mould half
+						is decorated with a sistrum and has a central casting channel and branches
+						going off it </description>
+				</type>
+				<persname xlink:type="simple" xlink:role="deity"
+					xlink:href="http://collection.britishmuseum.org/id/person-institution/54025"
+					>Isis</persname>
+			</obverse>
+		</typeDesc>
+
+		<refDesc>
+			<reference>
+				<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg. </tei:title>
+				<tei:idno>Ficoroni, F. (1740). I piombi antichi. Rome, Girolamo Mainardi. p. 166 no.
+					1</tei:idno>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

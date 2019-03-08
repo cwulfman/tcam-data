@@ -1,40 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>ostia21</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-23T17:14:38.528+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia 21</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<dateRange>
-								<fromDate standardDate="0001">A.D. 1</fromDate>
-								<toDate standardDate="0300">A.D. 300</toDate>
-							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type><description xml:lang="en">Tree or (palm branch?)</description></type></obverse><reverse><type><description xml:lang="en">Laurel wreath</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
-						
-					<refDesc><reference>
-					<tei:title>Pensabene, P. (2001-2003). Su alcune tessere plumbee di uso commerciale. Scienze dell'antichità. Storia archeologia antropologia. 11: 479-510 nos. 43-6</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>ostia21</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-23T17:14:38.528+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia 21</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<dateRange>
+				<fromDate standardDate="0001">A.D. 1</fromDate>
+				<toDate standardDate="0300">A.D. 300</toDate>
+			</dateRange>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast"
+				>Cast</manufacture>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+			<obverse>
+				<type>
+					<description xml:lang="en">Tree or (palm branch?)</description>
+				</type>
+			</obverse>
+			<reverse>
+				<type>
+					<description xml:lang="en">Laurel wreath</description>
+				</type>
+			</reverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+
+		<refDesc>
+			<reference>
+				<tei:title>Pensabene, P. (2001-2003). Su alcune tessere plumbee di uso commerciale.
+					Scienze dell'antichità. Storia archeologia antropologia. 11: 479-510 nos.
+					43-6</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

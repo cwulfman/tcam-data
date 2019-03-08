@@ -1,60 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>aquileia1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-06-21T15:56:50.537+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-06-27T17:55:32.953+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Aquileia 1</title>
-						<physDesc>
-            <shape>circle</shape>
-            <measurementsSet>
-                <diameter>19</diameter>
-            </measurementsSet>
-        </physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/TURS509">
-							
-						</typeDesc>
-						<adminDesc/>
-					<findspotDesc>
-					<findspot>
-                <description xml:lang="en">Aquileia.
-Find reported by Rostovtzeff in Tesserarum Urbis Romae et Suburbi Plumbearum Sylloge.</description>
-						<geogname xlink:role="findspot">Aquileia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>45.7692106667, 13.3688636667</gml:coordinates>
-							</gml:Point>
-            </findspot>
-				</findspotDesc>
-        <refDesc>
-            <reference>
-					<tei:title>    Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg. https://zenon.dainst.org/Record/000917434 </tei:title>
-				</reference>
-        </refDesc>
-    </descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>aquileia1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-06-21T15:56:50.537+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-06-27T17:55:32.953+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Aquileia 1</title>
+		<physDesc>
+			<shape>circle</shape>
+			<measurementsSet>
+				<diameter>19</diameter>
+			</measurementsSet>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/TURS509"> </typeDesc>
+		<adminDesc/>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Aquileia. Find reported by Rostovtzeff in Tesserarum
+					Urbis Romae et Suburbi Plumbearum Sylloge.</description>
+				<geogname xlink:role="findspot">Aquileia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>45.7692106667, 13.3688636667</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+		<refDesc>
+			<reference>
+				<tei:title> Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg.
+					https://zenon.dainst.org/Record/000917434 </tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

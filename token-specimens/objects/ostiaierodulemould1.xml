@@ -1,62 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>ostiaierodulemould1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-10-04T11:59:38.181+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-10-04T12:53:47.923+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia Insula delle Ierodule Mould 1</title>
-						<physDesc>
-            <measurementsSet>
-                <height>161</height>
-                <thickness>15</thickness>
-                <width>90</width>
-            </measurementsSet>
-        </physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/ostia_mould_9">
-							
-						</typeDesc>
-						<adminDesc>
-            <repository>Inv. SSBAR-OS no. 62025</repository>
-        </adminDesc>
-					<refDesc>
-            <reference>
-					<tei:title>Falzone, S. and A. Pellegrino, Eds. (2014). Scavi di Ostia XV: Insula delle Ierodule (c.d. Casa di Lucceia Primitiva: III, IX, 6). Roma, Il Cigno GG Edizioni, p. 364</tei:title>
-				</reference>
-        </refDesc>
-        <findspotDesc>
-					<findspot>
-                <description xml:lang="en">Ostia, Insula delle delle Ierodule (also called Casa di Lucceia Primitiva: III, IX, 6). Stratigraphic excavation, 2003-4. The mould was found in area 10 (a corridor) in a strata of abandonment (US 10 = US 53). Clay moulds and glass were also found, suggesting perhaps some sort of artisinal work. Also found were two coins - RIC Philip 168 and RIC Gallienus 587.</description>
-						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
-							</gml:Point>
-            </findspot>
-				</findspotDesc>
-    </descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>ostiaierodulemould1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-10-04T11:59:38.181+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-10-04T12:53:47.923+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia Insula delle Ierodule Mould 1</title>
+		<physDesc>
+			<measurementsSet>
+				<height>161</height>
+				<thickness>15</thickness>
+				<width>90</width>
+			</measurementsSet>
+		</physDesc>
+		<typeDesc
+			xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/ostia_mould_9"> </typeDesc>
+		<adminDesc>
+			<repository>Inv. SSBAR-OS no. 62025</repository>
+		</adminDesc>
+		<refDesc>
+			<reference>
+				<tei:title>Falzone, S. and A. Pellegrino, Eds. (2014). Scavi di Ostia XV: Insula
+					delle Ierodule (c.d. Casa di Lucceia Primitiva: III, IX, 6). Roma, Il Cigno GG
+					Edizioni, p. 364</tei:title>
+			</reference>
+		</refDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Ostia, Insula delle delle Ierodule (also called Casa di
+					Lucceia Primitiva: III, IX, 6). Stratigraphic excavation, 2003-4. The mould was
+					found in area 10 (a corridor) in a strata of abandonment (US 10 = US 53). Clay
+					moulds and glass were also found, suggesting perhaps some sort of artisinal
+					work. Also found were two coins - RIC Philip 168 and RIC Gallienus
+					587.</description>
+				<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+	</descMeta>
+</nuds>

@@ -1,69 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
-					<control>
-						<recordId>ostiadecumanus1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-07-24T17:19:10.374+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-07-24T17:24:11.163+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent>
-        <maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-11-23T14:46:22.597Z"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Ostia Antiquarium inv. 7675</title>
-						<physDesc>
-            <measurementsSet>
-                <diameter>15</diameter>
-            </measurementsSet>
-        </physDesc>
-						<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/TURS2035">
-							
-						</typeDesc>
-						<adminDesc><collection>Ostia Antiquarium</collection></adminDesc>
-					<findspotDesc>
-					<findspot>
-                <description xml:lang="en">Ostia, Decumanus. Uncovered in the section of the decumanus up to the via della Pistrina. The giornale records excavations in April 1913 in the street to the east of the Molini, as well as the Decumanus - more specifically the section of the Decumanus south of the parrallelepiped tufa blocks and SE from the 'Temple of Vulcan' (Capitolium). </description>
-						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
-					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
-							</gml:Point>
-            </findspot>
-				</findspotDesc>
-        <refDesc>
-            <reference>
-					<tei:title>NSc. 1913, 217</tei:title>
-				</reference>
-        <reference>
-					<tei:title>Giornale degli Scavi 1913 no. 6 p. 160</tei:title>
-				</reference></refDesc>
-    <noteSet>
-            <note>Vaglieri recorded the find as Rostowzew Pl. 8 n. 65, which is TURS 2035, but he then wrote "cfr. Rostowzew, 2421". So the identification of the token is not certain. The giornale lists the type as Rostowzew Pl. 8 n. 65.</note>
-        </noteSet>
-    </descMeta>
-				</nuds>
+<nuds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://nomisma.org/nuds ../../schemas/nuds.xsd"
+	xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+	<control>
+		<recordId>ostiadecumanus1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-07-24T17:19:10.374+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-07-24T17:24:11.163+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-11-23T14:46:22.597Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Ostia Antiquarium inv. 7675</title>
+		<physDesc>
+			<measurementsSet>
+				<diameter>15</diameter>
+			</measurementsSet>
+		</physDesc>
+		<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/TURS2035"> </typeDesc>
+		<adminDesc>
+			<collection>Ostia Antiquarium</collection>
+		</adminDesc>
+		<findspotDesc>
+			<findspot>
+				<description xml:lang="en">Ostia, Decumanus. Uncovered in the section of the
+					decumanus up to the via della Pistrina. The giornale records excavations in
+					April 1913 in the street to the east of the Molini, as well as the Decumanus -
+					more specifically the section of the Decumanus south of the parrallelepiped tufa
+					blocks and SE from the 'Temple of Vulcan' (Capitolium). </description>
+				<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+				<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+					<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+				</gml:Point>
+			</findspot>
+		</findspotDesc>
+		<refDesc>
+			<reference>
+				<tei:title>NSc. 1913, 217</tei:title>
+			</reference>
+			<reference>
+				<tei:title>Giornale degli Scavi 1913 no. 6 p. 160</tei:title>
+			</reference>
+		</refDesc>
+		<noteSet>
+			<note>Vaglieri recorded the find as Rostowzew Pl. 8 n. 65, which is TURS 2035, but he
+				then wrote "cfr. Rostowzew, 2421". So the identification of the token is not
+				certain. The giornale lists the type as Rostowzew Pl. 8 n. 65.</note>
+		</noteSet>
+	</descMeta>
+</nuds>

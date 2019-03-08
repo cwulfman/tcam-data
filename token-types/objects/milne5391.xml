@@ -1,65 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>milne5391</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-08-08T15:34:30.881+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						<maintenanceEvent>
-					<eventType>revised</eventType>
-					<eventDateTime standardDateTime="2018-08-08T15:46:59.328+01:00"/>
-					<agentType>human</agentType>
-					<agent>admin</agent>
-				</maintenanceEvent></maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Milne 5391</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<obverse>
-                <type>
-                    <description xml:lang="en">Nilus reclining left with cornucopia</description>
-                </type>
-                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59564">Nile</persname>
-            </obverse>
-            <reverse>
-                <type>
-                    <description xml:lang="en">Bust of Athena right; date in field</description>
-                </type>
-                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57060">Athena/Minerva</persname>
-                <legend>LKE</legend>
-            </reverse>
-            <dateOnObject>Year 25</dateOnObject>
-            <dateRange>
-								<fromDate standardDate="0001">A.D. 1</fromDate>
-								<toDate standardDate="0300">A.D. 300</toDate>
-							</dateRange>
-            <material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
-            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
-            <geographic>
-                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/egypt">Egypt</geogname>
-            </geographic>
-        </typeDesc>
-						
-					<refDesc><reference>
-					<tei:title>Milne (1971) Catalogue of Alexandrian Coins</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>milne5391</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-08-08T15:34:30.881+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+			<maintenanceEvent>
+				<eventType>revised</eventType>
+				<eventDateTime standardDateTime="2018-08-08T15:46:59.328+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Milne 5391</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<obverse>
+				<type>
+					<description xml:lang="en">Nilus reclining left with cornucopia</description>
+				</type>
+				<persname xlink:type="simple" xlink:role="deity"
+					xlink:href="http://collection.britishmuseum.org/id/person-institution/59564"
+					>Nile</persname>
+			</obverse>
+			<reverse>
+				<type>
+					<description xml:lang="en">Bust of Athena right; date in field</description>
+				</type>
+				<persname xlink:type="simple" xlink:role="deity"
+					xlink:href="http://collection.britishmuseum.org/id/person-institution/57060"
+					>Athena/Minerva</persname>
+				<legend>LKE</legend>
+			</reverse>
+			<dateOnObject>Year 25</dateOnObject>
+			<dateRange>
+				<fromDate standardDate="0001">A.D. 1</fromDate>
+				<toDate standardDate="0300">A.D. 300</toDate>
+			</dateRange>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck"
+				>Struck</manufacture>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/egypt">Egypt</geogname>
+			</geographic>
+		</typeDesc>
+
+		<refDesc>
+			<reference>
+				<tei:title>Milne (1971) Catalogue of Alexandrian Coins</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

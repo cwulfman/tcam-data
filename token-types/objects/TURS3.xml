@@ -1,40 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>TURS3</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>new</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2019-01-08T13:54:21.061Z"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">TURS 3</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<dateRange>
-								<fromDate standardDate="-0017">17 B.C.</fromDate>
-								<toDate standardDate="0014">A.D. 14</toDate>
-							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture><obverse><type><description xml:lang="en">Gaius and Lucius Caesar (?) seated front on curule chairs with their heads covered by their togas. The figure on the right holds a laurel branch, the figure on the left holds an uncertain object.</description></type><persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/gaius_caesar">Gaius Caesar</persname><persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/lucius_caesar">Lucius Caesar</persname></obverse><reverse><type><description xml:lang="en">Two shields and two spears.</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
-						
-					<noteSet><note>Perhaps inspired by imperial coins celebrating Gaius and Lucius as principes iuventutis (leaders of the youth). See http://numismatics.org/ocre/results?q=gaius+AND+fulltext%3Alucius</note></noteSet><refDesc><reference>
-					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg.</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>TURS3</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2019-01-08T13:54:21.061Z"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">TURS 3</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<dateRange>
+				<fromDate standardDate="-0017">17 B.C.</fromDate>
+				<toDate standardDate="0014">A.D. 14</toDate>
+			</dateRange>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast"
+				>Cast</manufacture>
+			<obverse>
+				<type>
+					<description xml:lang="en">Gaius and Lucius Caesar (?) seated front on curule
+						chairs with their heads covered by their togas. The figure on the right
+						holds a laurel branch, the figure on the left holds an uncertain
+						object.</description>
+				</type>
+				<persname xlink:type="simple" xlink:role="portrait"
+					xlink:href="http://nomisma.org/id/gaius_caesar">Gaius Caesar</persname>
+				<persname xlink:type="simple" xlink:role="portrait"
+					xlink:href="http://nomisma.org/id/lucius_caesar">Lucius Caesar</persname>
+			</obverse>
+			<reverse>
+				<type>
+					<description xml:lang="en">Two shields and two spears.</description>
+				</type>
+			</reverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+			</geographic>
+		</typeDesc>
+
+		<noteSet>
+			<note>Perhaps inspired by imperial coins celebrating Gaius and Lucius as principes
+				iuventutis (leaders of the youth). See
+				http://numismatics.org/ocre/results?q=gaius+AND+fulltext%3Alucius</note>
+		</noteSet>
+		<refDesc>
+			<reference>
+				<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St.
+					Petersburg.</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

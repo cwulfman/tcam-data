@@ -1,38 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>makella2</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-07-10T17:34:17.666+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Makella 2</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<obverse><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58260">Tyche/Fortuna</persname><type><description xml:lang="en">Tyche/Fortuna standing left holding a spear in her right hand and a cornucopia in her left hand.</description></type></obverse><reverse><type><description xml:lang="en">Blank</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/sicily">Sicily</geogname></geographic><dateRange>
-								<fromDate standardDate="-0100">100 B.C.</fromDate>
-								<toDate standardDate="-0000">0 B.C.</toDate>
-							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/pressed">Pressed</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/clay">Clay</material></typeDesc>
-						
-					</descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>makella2</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-07-10T17:34:17.666+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Makella 2</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<obverse>
+				<persname xlink:type="simple" xlink:role="deity"
+					xlink:href="http://collection.britishmuseum.org/id/person-institution/58260"
+					>Tyche/Fortuna</persname>
+				<type>
+					<description xml:lang="en">Tyche/Fortuna standing left holding a spear in her
+						right hand and a cornucopia in her left hand.</description>
+				</type>
+			</obverse>
+			<reverse>
+				<type>
+					<description xml:lang="en">Blank</description>
+				</type>
+			</reverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="region"
+					xlink:href="http://nomisma.org/id/sicily">Sicily</geogname>
+			</geographic>
+			<dateRange>
+				<fromDate standardDate="-0100">100 B.C.</fromDate>
+				<toDate standardDate="-0000">0 B.C.</toDate>
+			</dateRange>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/pressed"
+				>Pressed</manufacture>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/clay">Clay</material>
+		</typeDesc>
+
+	</descMeta>
+</nuds>

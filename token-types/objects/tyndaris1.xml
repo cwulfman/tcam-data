@@ -1,42 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-					<control>
-						<recordId>tyndaris1</recordId>
-						<publicationStatus>approved</publicationStatus>
-						<maintenanceStatus>revised</maintenanceStatus>
-						<maintenanceAgency>
-							<agencyName>University of Warwick</agencyName>
-						</maintenanceAgency>
-						<maintenanceHistory>
-							<maintenanceEvent>
-								<eventType>created</eventType>
-								<eventDateTime standardDateTime="2018-07-10T14:29:03.09+01:00"/>
-								<agentType>human</agentType>
-								<agent>admin</agent>
-							</maintenanceEvent>
-						</maintenanceHistory>
-						<rightsStmt>
-							<copyrightHolder>University of Warwick</copyrightHolder>
-							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-						</rightsStmt>
-						<semanticDeclaration>
-							<prefix>nmo</prefix>
-							<namespace>http://nomisma.org/ontology#</namespace>
-						</semanticDeclaration>
-					</control>
-					<descMeta>
-						<title xml:lang="en">Tyndaris 1</title>
-						
-						<typeDesc>
-							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
-						<obverse><symbol>Caps of the Dioscuri and two stylised crosses representing stars above.</symbol><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57951">Dioskouroi/Dioscuri</persname></obverse><reverse><type><description xml:lang="en">Blank.</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/tyndaris">Tyndaris</geogname></geographic><dateRange>
-								<fromDate standardDate="-0044">44 B.C.</fromDate>
-								<toDate standardDate="-0000">0 B.C.</toDate>
-							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/pressed">Pressed</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/clay">Clay</material></typeDesc>
-						
-					<refDesc><reference>
-					<tei:title>Crisà A., A rare clay token in context: a fortunate and recorded discovery from the necropolis of Tindari (Messina, 1896), in C. Rowan (ed.), Tokens: Culture, Connections, Communities. An Interdisciplinary Conference at the University of Warwick, 8-10 June 2017. London: Royal Numismatic Society 2019 (forthcoming).</tei:title>
-				</reference><reference>
-					<tei:title>Crisà A., When Archaeology Meets Communities: Impacting Interactions in Northern Sicily Over Two Eras (Messina, 1861-1918). Oxford: Archaeopress 2018, TIND.7.90–91.</tei:title>
-				</reference></refDesc></descMeta>
-				</nuds>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+	<control>
+		<recordId>tyndaris1</recordId>
+		<publicationStatus>approved</publicationStatus>
+		<maintenanceStatus>revised</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyName>University of Warwick</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime standardDateTime="2018-07-10T14:29:03.09+01:00"/>
+				<agentType>human</agentType>
+				<agent>admin</agent>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<rightsStmt>
+			<copyrightHolder>University of Warwick</copyrightHolder>
+			<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+		</rightsStmt>
+		<semanticDeclaration>
+			<prefix>nmo</prefix>
+			<namespace>http://nomisma.org/ontology#</namespace>
+		</semanticDeclaration>
+	</control>
+	<descMeta>
+		<title xml:lang="en">Tyndaris 1</title>
+
+		<typeDesc>
+			<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+			<obverse>
+				<symbol>Caps of the Dioscuri and two stylised crosses representing stars
+					above.</symbol>
+				<persname xlink:type="simple" xlink:role="deity"
+					xlink:href="http://collection.britishmuseum.org/id/person-institution/57951"
+					>Dioskouroi/Dioscuri</persname>
+			</obverse>
+			<reverse>
+				<type>
+					<description xml:lang="en">Blank.</description>
+				</type>
+			</reverse>
+			<geographic>
+				<geogname xlink:type="simple" xlink:role="mint"
+					xlink:href="http://nomisma.org/id/tyndaris">Tyndaris</geogname>
+			</geographic>
+			<dateRange>
+				<fromDate standardDate="-0044">44 B.C.</fromDate>
+				<toDate standardDate="-0000">0 B.C.</toDate>
+			</dateRange>
+			<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/pressed"
+				>Pressed</manufacture>
+			<material xlink:type="simple" xlink:href="http://nomisma.org/id/clay">Clay</material>
+		</typeDesc>
+
+		<refDesc>
+			<reference>
+				<tei:title>Crisà A., A rare clay token in context: a fortunate and recorded
+					discovery from the necropolis of Tindari (Messina, 1896), in C. Rowan (ed.),
+					Tokens: Culture, Connections, Communities. An Interdisciplinary Conference at
+					the University of Warwick, 8-10 June 2017. London: Royal Numismatic Society 2019
+					(forthcoming).</tei:title>
+			</reference>
+			<reference>
+				<tei:title>Crisà A., When Archaeology Meets Communities: Impacting Interactions in
+					Northern Sicily Over Two Eras (Messina, 1861-1918). Oxford: Archaeopress 2018,
+					TIND.7.90–91.</tei:title>
+			</reference>
+		</refDesc>
+	</descMeta>
+</nuds>

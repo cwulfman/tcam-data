@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+<nuds xmlns="http://nomisma.org/nuds" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+    recordType="conceptual">
     <control>
         <recordId>TURS4</recordId>
         <publicationStatus>approved</publicationStatus>
@@ -10,7 +12,8 @@
         <maintenanceHistory>
             <maintenanceEvent>
                 <eventType>derived</eventType>
-                <eventDateTime standardDateTime="2018-06-18T17:23:35+01:00">Mon, 18 Jun 2018 17:23:35 +0100</eventDateTime>
+                <eventDateTime standardDateTime="2018-06-18T17:23:35+01:00">Mon, 18 Jun 2018
+                    17:23:35 +0100</eventDateTime>
                 <agentType>machine</agentType>
                 <agent>PHP</agent>
                 <eventDescription>Generated from Fieldbook Export.</eventDescription>
@@ -32,8 +35,10 @@
     <descMeta>
         <title xml:lang="en">TURS 4</title>
         <typeDesc>
-            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/token">token</objectType>
-            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">cast</manufacture>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/token"
+                >token</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast"
+                >cast</manufacture>
             <material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
             <authority>
                 <persname xlink:type="simple" xlink:role="http://nomisma.org/id/authority"/>
@@ -43,14 +48,17 @@
                 <toDate standardDate="0019">19 A.D.</toDate>
             </dateRange>
             <geographic>
-                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/Rome" certainty="uncertain">Rome</geogname>
-                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/Italy">Italy</geogname>
+                <geogname xlink:type="simple" xlink:role="mint"
+                    xlink:href="http://nomisma.org/id/Rome" certainty="uncertain">Rome</geogname>
+                <geogname xlink:type="simple" xlink:role="region"
+                    xlink:href="http://nomisma.org/id/Italy">Italy</geogname>
             </geographic>
             <obverse>
                 <type>
                     <description xml:lang="en">Bare head of Germanicus right.</description>
                 </type>
-                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/Germanicus">Germanicus</persname>
+                <persname xlink:type="simple" xlink:role="portrait"
+                    xlink:href="http://nomisma.org/id/Germanicus">Germanicus</persname>
             </obverse>
             <reverse>
                 <type>
@@ -64,7 +72,8 @@
         </physDesc>
         <refDesc>
             <reference>
-                <tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg.</tei:title>
+                <tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St.
+                    Petersburg.</tei:title>
                 <tei:idno>https://zenon.dainst.org/Record/000917434</tei:idno>
             </reference>
         </refDesc>
