@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>ostia_inv_9568.2</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-11-22T10:31:45.143Z"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Ostia Antiquarium inv. 9568.2</title>
+						<physDesc><measurementsSet><diameter>11</diameter></measurementsSet></physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/ostia33">
+							
+						</typeDesc>
+						<adminDesc><collection>Museo Nazionale Rome</collection></adminDesc>
+					<refDesc><reference>
+					<tei:title>Giornale degli Scavi no. 8 1915 p. 52-3</tei:title>
+				</reference></refDesc><findspotDesc>
+					<findspot><description xml:lang="en">Ostia, via di Diana. Excavations in January 1915 along the via di Diana northwards. The giornale notes that the ruins on this north side are not well preserved. A handwritten note records that this token was transferred to the Museo Nazionale.</description>
+						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc></descMeta>
+				</nuds>

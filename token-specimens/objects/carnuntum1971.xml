@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>carnuntum1971</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-10T13:59:40.386+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Carnuntum 1971</title>
+						<physDesc><measurementsSet><diameter>11.5</diameter><weight units="g">1.59</weight></measurementsSet><axis>12</axis></physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/carnuntum1">
+							
+						</typeDesc>
+						<adminDesc/>
+					<findspotDesc>
+					<findspot><description xml:lang="en">Carnuntum, 1971 excavations. Dr. Hannsjörg Ubl- excavations in Petronell-Carnuntum. Along the Donau outside the built up area of Petronell towards Bad Deutsch Altenburg north of the Bundesstrasse. Amongst other small finds were coins. The precise findplace is Quadrant VII, NW, an area of c. 0.95m, 30.6.1971.</description>
+						<geogname xlink:role="findspot">Carnuntum (Austria)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>48.113346, 16.867891</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc><refDesc><reference>
+					<tei:title>Dembski, G. (1973/4). Zwei römische Bleitesserae aus Carnuntum. Mitteilungen der Österreichischen Numismatischen Gesellschaft 18: 13-14.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

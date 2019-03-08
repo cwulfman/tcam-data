@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>ostia_inv_9445</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-11-21T09:38:14.674Z"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Ostia Antiquarium inv. 9445</title>
+						<physDesc/>
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type><description xml:lang="en">unknown (not recorded)</description></type></obverse><reverse><type><description xml:lang="en">unknown (not recorded)</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
+						<adminDesc><collection>Ostia Antiquarium</collection></adminDesc>
+					<refDesc><reference>
+					<tei:title>Giornale degli Scavi no. 7 1914 p. 231</tei:title>
+				</reference></refDesc><findspotDesc>
+					<findspot><description xml:lang="en">Ostia, decumanus. Excavations in November 1914 of the two streets beneath the Decumanus, as well as part of the Decumanus from the Republican gate going south towards Molini, ending at the 'Ufficio' and the Capitolium ('temple of Vulcan'). </description>
+						<geogname xlink:role="findspot">Ostia (Italy)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>41.754855, 12.287656</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc></descMeta>
+				</nuds>

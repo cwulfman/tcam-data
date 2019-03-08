@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>TURS1193</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-06-21T16:08:31.109+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-06-21T16:28:01.802+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">TURS 1193</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture>
+            <obverse>
+                <legend>COR / THAL</legend>
+            </obverse>
+            <reverse>
+                <type>
+                    <description xml:lang="en">The three Graces standing nude.</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58409">Graces/Charities</persname>
+            </reverse>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+        </typeDesc>
+						
+					<refDesc>
+            <reference>
+					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg. https://zenon.dainst.org/Record/000917434</tei:title>
+				</reference>
+        </refDesc>
+    <noteSet><note>Rostovtzeff suggested the legend might be read as a name: Cor(nelius) Thal(lus) or similar.</note></noteSet></descMeta>
+				</nuds>

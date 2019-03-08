@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>ostia_mould_14</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-10T16:48:57.859+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Ostia Mould 14</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+						<obverse><type><description xml:lang="en">Fragment of a mould half showing two casting channels and two circular tokens with the same design: a beetle.</description></type></obverse><dateRange>
+								<fromDate standardDate="0250">A.D. 250</fromDate>
+								<toDate standardDate="0400">400</toDate>
+							</dateRange><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
+						
+					<noteSet><note>Made from lunense marble. The date given is the date of the stratum in which the mould was found.</note></noteSet><refDesc><reference>
+					<tei:title>Carandini, A. and C. Panella, Eds. (1977). Ostia IV. Le Terme del Nuotatore. Scavo dell'ambiente XVI e dell'area XXV. (Studi Miscellanei 23). Rome.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

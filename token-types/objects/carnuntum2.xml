@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>carnuntum2</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-10T14:15:14.863+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Carnuntum 2</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><dateRange>
+								<fromDate standardDate="-0060">60 B.C.</fromDate>
+								<toDate standardDate="-0030">30 B.C.</toDate>
+							</dateRange><obverse><type><description xml:lang="en">Bare head of Mark Antony right. Only some of the legend is visible.</description></type><legend>...NIVS III VIR</legend><persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/mark_antony">Mark Antony</persname></obverse><reverse><type><description xml:lang="en">Worn.</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/upper_germany">Upper Germany</geogname></geographic></typeDesc>
+						
+					<refDesc><reference>
+					<tei:title>Dembski, G. (1973/4). Zwei römische Bleitesserae aus Carnuntum. Mitteilungen der Österreichischen Numismatischen Gesellschaft 18: 13-14.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

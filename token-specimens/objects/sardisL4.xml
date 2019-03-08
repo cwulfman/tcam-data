@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>sardisL4</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-10-29T14:48:33.34Z"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-10-29T14:52:26.977Z"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Sardis L4</title>
+						<physDesc>
+            <measurementsSet>
+                <diameter>10</diameter>
+                <weight units="g">0.97</weight>
+            </measurementsSet>
+        </physDesc>
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="-0300">300 B.C.</fromDate>
+								<toDate standardDate="0000">A.D. 0</toDate>
+							</dateRange>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Anchor to left</description>
+                </type>
+            </obverse>
+            <reverse>
+                <legend>Δ</legend>
+            </reverse>
+        </typeDesc>
+						<adminDesc/>
+					<noteSet>
+            <note>DeRose Evans suggests a date of 'Hellenistic?' A parallel token type is Gülbay and Kireç no. 257</note>
+        </noteSet>
+        <findspotDesc>
+					<findspot>
+                <description xml:lang="en">Sardes, theatre, topsoil. The theatre had a lot of fill dating to the Hellenistic period.</description>
+						<geogname xlink:role="findspot">Sardes (Turkey)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>38.48856, 28.04041</gml:coordinates>
+							</gml:Point>
+            </findspot>
+				</findspotDesc>
+        <refDesc>
+            <reference>
+					<tei:title>DeRose Evans, J. (2018). Coins from the Excavations at Sardis, Their Archaeological and Economic Contexts. Coins from the 1973 to 2013 Excavations. Cambridge, MA, Harvard University Press.</tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

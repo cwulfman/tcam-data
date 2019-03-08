@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>lepcismagnavilla1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-06-25T15:46:18.375+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Lepcis Magna Villa 1</title>
+						<physDesc><measurementsSet><diameter>11.01</diameter><weight units="g">22.4</weight></measurementsSet><shape>circle</shape></physDesc>
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture><obverse><type><description xml:lang="en">illegible.</description></type></obverse><reverse><type><description xml:lang="en">illegible or blank.</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/africa">Africa</geogname></geographic></typeDesc>
+						<adminDesc/>
+					<findspotDesc>
+					<findspot><description xml:lang="en">Lepcis Magna, North Africa.
+
+Archaeological survey conducted by the Archeological Mission of the University Roma Tre. 2013 survey focused on the immediate hinterland of Leptis Magna and the modern city of Khoms, between the low hills of Ras al-Mergheb to the West and Ras al-Hammam to the East. 28 coins were recovered in 13 of the 57 sites. The specific context of this lead token was Open villa KHM 153, 2/1st centuries BC - 5th century AD". Also found was a Numidian aes coin  of Massinissa-Micipsa, clipped to a quarter.</description>
+						<geogname xlink:role="findspot">Lepcis Magna (Africa)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>32.6379575, 14.291378</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc><refDesc><reference>
+					<tei:title>Munzi, M. (2017). The Tripolitanian countryside: new numismatic data from the survey of the territory of Leptis Magna (2013 campaign). The Journal of Archaeological Numismatics 7: 189-200.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>romekircheriano2</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-09T10:48:16.308+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-08-09T13:39:16.247+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Rome Kircheriano 2</title>
+						<physDesc>
+            <measurementsSet>
+                <height>90</height>
+                <width>65</width>
+            </measurementsSet>
+        </physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/TURS3584">
+							
+						</typeDesc>
+						<adminDesc/>
+					<refDesc>
+            <reference>
+					<tei:title>Ruggiero, E. (1878). Catalogo del Museo Kircheriano. Rome, p. 217 no. 2</tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

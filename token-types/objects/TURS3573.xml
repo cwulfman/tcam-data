@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>TURS3573</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-09T11:19:27.532+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-08-09T11:20:27.631+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">TURS 3573 Mould</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+						<material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material>
+            <dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange>
+            <obverse>
+                <type>
+                    <description xml:lang="en">A mould for 7 square tokens of 12mm all with the same legend: ERA. There is a central casting channel and holes in the upper right and lower left corners</description>
+                </type>
+                <legend>ERA</legend>
+            </obverse>
+        </typeDesc>
+						
+					<refDesc>
+            <reference>
+					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg. </tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

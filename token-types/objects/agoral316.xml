@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>agoral316</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-11-18T19:05:52.829Z"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Agora L316</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<obverse><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58628">Herakles/Hercules</persname><type><description xml:lang="en">Herakles seated left on a rock facing a tripod from which a snake arises.</description></type></obverse><reverse><type><description xml:lang="en">Bust of youth left. Club in field right.</description></type></reverse><authority><corpname xlink:type="simple" xlink:role="state">Athens</corpname></authority><geographic><geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/athens">Athens</geogname><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/attica">Attica</geogname></geographic><dateRange>
+								<fromDate standardDate="0000">A.D. 0</fromDate>
+								<toDate standardDate="0267">A.D. 267</toDate>
+							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material></typeDesc>
+						
+					</descMeta>
+				</nuds>

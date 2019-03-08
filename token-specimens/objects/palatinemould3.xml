@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>palatinemould3</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-06-21T12:29:13.449+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-06-21T12:36:40.262+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent>
+        <maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-06-21T12:38:53.063+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Palatine Mould 3</title>
+						<physDesc>
+            <measurementsSet>
+                <height>84</height>
+                <thickness>23</thickness>
+                <width>79</width>
+            </measurementsSet>
+        </physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/rome_mould_3">
+							
+						</typeDesc>
+						<adminDesc>
+            <repository>PNE 2007 II, US 2932 (late medieval period, XII-XV centuries), s.f.n. 6181, inv. SSCol n. 536345.</repository>
+        </adminDesc>
+					<refDesc>
+            <reference>
+					<tei:title> Pardini, G., M. Piacentini, A. C. Felici, M. L. Santarelli and S. Santucci (2016). Matrici per tessere plumbee dalle pendici nord-orientali del Palatino. Nota preliminare. Le regole del gioco tracce archeologi racconti. Studi in onore di Clementina Panella. A. F. Ferrandes and G. Pardini, Edizioni Quasar: 649-667. (http://zenon.dainst.org/Record/001478955)</tei:title>
+				</reference>
+        </refDesc>
+        <findspotDesc>
+					<findspot>
+                <description xml:lang="en">Rome (Palatine). 
+Excavations (with stratigraphy) in the NE corner of the Palatine, in the Curiae Veteres.
+Found in Area II of the NE Palatine excavations, in a medieval context associated with the spoliation of Neronian-Flavian materials (blocks). This suggests it is from the first century AD.</description>
+						<geogname xlink:role="findspot">Rome (Italy)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>41.891775, 12.486137</gml:coordinates>
+							</gml:Point>
+            </findspot>
+				</findspotDesc>
+    </descMeta>
+				</nuds>

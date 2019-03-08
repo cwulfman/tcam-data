@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>londonwalbrook1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-14T15:24:40.713+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">London Walbrook 1</title>
+						<physDesc/>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/cohenviiip.72no55">
+							
+						</typeDesc>
+						<adminDesc/>
+					<refDesc><reference>
+					<tei:title>Merrifield, R. (1962). Coins from the bed of the Walbrook, and their significance. The Antiquaries Journal 42: 38-52.</tei:title>
+				</reference></refDesc><findspotDesc>
+					<findspot><description xml:lang="en">London, The Walbrook, City of London. Builders' excavations for Bucklersbury House, Walbrook. The silted stream bed of the Walbrook was excavated. Finds suggest the banks of the Walbrook stream were a scene of great industrial and commercial activity, since in addition to craftsmen's tools, a considerable amount of leather and metal waste was found.
+Although there is no stratigraphic information for the token, the finds and associated nearby excavations suggest that the deposition of objects in the river ceased sometime after Antoninus Pius' coins came into circulation, and before coins of Marcus Aurelius reached the area. Not all the coin finds could be acquired from the builders for the Guildhall museum.</description>
+						<geogname xlink:role="findspot">London (Britain)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>51.51279, -0.09184</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc></descMeta>
+				</nuds>

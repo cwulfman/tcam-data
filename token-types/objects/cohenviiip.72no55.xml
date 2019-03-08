@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>cohenviiip.72no55</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-06-25T15:51:33.031+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-10-04T12:34:03.387+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent>
+        <maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-10-04T12:40:00.921+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent>
+        <maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-10-04T12:46:28.933+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Cohen VIII p. 272 no. 55</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/orichalcum">Orichalcum</material>
+            <dateRange>
+								<fromDate standardDate="0068">A.D. 68</fromDate>
+								<toDate standardDate="0150">A.D. 150</toDate>
+							</dateRange>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Modius with three corn-ears.</description>
+                </type>
+            </obverse>
+            <reverse>
+                <type>
+                    <description xml:lang="en">Kantharus.</description>
+                </type>
+            </reverse>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+        </typeDesc>
+						
+					<refDesc>
+            <reference>
+					<tei:title>	Cohen, H. (1859-68). Description historique des monnaies frappées sous l'Empire romain communément appelées, médailles impériales (8 vols). Paris, M. Rollin. (https://zenon.dainst.org/Record/AR010276155)</tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

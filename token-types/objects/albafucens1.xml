@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>albafucens1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-28T13:26:10.814+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-08-28T13:32:13.603+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Alba Fucens 1</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/pewter">Pewter</material>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Bare head of Claudius left</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/claudius">Claudius</persname>
+                <legend>TI CLAVDIVS CAESAR</legend>
+            </obverse>
+            <reverse>
+                <type>
+                    <description xml:lang="en">Bust of Messalina right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/messallina">Messalina</persname>
+                <legend>MESSALINA</legend>
+            </reverse>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+        <dateRange>
+								<fromDate standardDate="0041">A.D. 41</fromDate>
+								<toDate standardDate="0054">A.D. 54</toDate>
+							</dateRange></typeDesc>
+						
+					<noteSet>
+            <note>Perhaps connected to the pewter series discussed by Mitchiner in NC 1984.</note>
+        </noteSet>
+        <refDesc>
+            <reference>
+					<tei:title>Ceccaroni, E. and M. C. Molinari (2017). I reperti numismatici provenienti dai recenti scavi del santuario di Ercole di Alba Fucens. XV International Numismatic Congress Taormina 2015 Proceedings. M. Caccamo Caltabiano. Roma-Messina, International Numismatic Commission. 1: 717-719.</tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

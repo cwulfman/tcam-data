@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>rome_mould_3</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-06-21T12:24:51.688+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-06-21T12:30:16.472+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Rome Mould 3</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+						<dateRange>
+								<fromDate standardDate="-0050">50 B.C.</fromDate>
+								<toDate standardDate="0068">A.D. 68</toDate>
+							</dateRange>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material>
+            <obverse>
+                <legend>RF</legend>
+                <type>
+                    <description xml:lang="en">Mould for 9 circular tokens, all with the same legend: RF. The mould has a central canal, but no casting branches off to the individual tokens. There are holes for nails in the top right and lower left corners.</description>
+                </type>
+            </obverse>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+        </typeDesc>
+						
+					</descMeta>
+				</nuds>

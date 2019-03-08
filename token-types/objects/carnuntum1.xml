@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>carnuntum1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-10T13:52:35.759+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-08-10T14:16:07.45+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Carnuntum 1</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Fortuna standing left holding rudder in right hand and cornucopia in left.</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58260">Tyche/Fortuna</persname>
+            </obverse>
+            <reverse>
+                <legend>TKF</legend>
+            </reverse>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/upper_germany">Upper Germany</geogname>
+            </geographic>
+        <dateRange>
+								<fromDate standardDate="-0100">100 B.C.</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange></typeDesc>
+						
+					<noteSet>
+            <note>The publication reports TFK as the legend, but the image shows the legend is TKF.</note>
+        </noteSet>
+        <refDesc>
+            <reference>
+					<tei:title>Dembski, G. (1973/4). Zwei römische Bleitesserae aus Carnuntum. Mitteilungen der Österreichischen Numismatischen Gesellschaft 18: 13-14.</tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

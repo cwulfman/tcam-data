@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>Salinas_Palermo62646</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-07-10T17:25:36.167+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Museo Archeologico "Antonino Salinas" 62646</title>
+						<physDesc><measurementsSet><diameter>31.59</diameter><thickness>7.27</thickness><weight units="g">4.5</weight></measurementsSet><shape>Circle</shape><conservationState><completeness>1/2 token</completeness><condition>Fairly good</condition></conservationState></physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/makella1">
+							
+						</typeDesc>
+						<adminDesc/>
+					<findspotDesc>
+					<findspot>
+						<geogname xlink:role="findspot">Marineo (Palermo, Sicily)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>37.951583, 13.415131</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc></descMeta>
+				</nuds>

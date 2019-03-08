@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>renaud1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-09-11T15:49:52.185+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-09-11T16:03:08.603+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent>
+        <maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-09-11T16:12:28.338+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Renaud Collection 1</title>
+						<physDesc><shape>circle</shape></physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/cohenviiip.266no5">
+							
+						</typeDesc>
+						<adminDesc>
+            <collection>M. Alphonse Renaud (de Besançon)</collection>
+        </adminDesc>
+					<refDesc>
+            <reference>
+					<tei:title>Castan, M. A. (1870). Un jeton de jeu de l'époque romaine. Revue Archéologique 21: 261-262.</tei:title>
+				</reference>
+        </refDesc>
+        <findspotDesc>
+					<findspot>
+                <description xml:lang="en">Modern Autun. The piece is reported to be in the collection of M. Alphonse Renaud (de Besançon) and is said to be from around Autun.</description>
+						<geogname xlink:role="findspot">Augustodunum (France)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>46.94724, 4.2991775</gml:coordinates>
+							</gml:Point>
+            </findspot>
+				</findspotDesc>
+        <noteSet>
+            <note>Unlike other specimens of this type, this example is made of lead.</note>
+        </noteSet>
+    </descMeta>
+				</nuds>

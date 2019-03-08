@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>agorail1275</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-10-30T20:55:51.686Z"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Agora IL1275</title>
+						<physDesc/>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/orbeon/numishare/token-types/id/agoral183">
+							
+						</typeDesc>
+						<adminDesc><acqinfo xmlns:xxforms="http://orbeon.org/oxf/xml/xforms" xxforms:exclude-result-prefixes="#all">
+					
+					<acquiredFrom>Excavation</acquiredFrom>
+					<acquiredMethod>Excavation</acquiredMethod>
+				</acqinfo></adminDesc>
+					<refDesc><reference>
+					<tei:title>Lang, M. and M. Crosby (1964). The Athenian Agora X: Weights, Measures and Tokens. Princeton, New Jersey, The American School of Classical Studies at Athens. (https://zenon.dainst.org/Record/000211771)</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

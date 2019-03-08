@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>mallorca2</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-24T16:46:15.354+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Mallorca 2</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><obverse><type><description xml:lang="en">Sella curulis, D D above, F C below
+</description></type><legend>D D F C</legend></obverse><reverse><type><description xml:lang="en">Palm branch, P GRAV (?) above, C SICI below</description></type><legend>P GRAV (?) C SICI</legend></reverse><authority><persname xlink:type="simple" xlink:role="issuer">C SICI</persname></authority><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/hispania_citerior">Hispania Citerior</geogname></geographic></typeDesc>
+						
+					<refDesc><reference>
+					<tei:title>Trilla Pardo, E. and A. Calero Gelabert (2008). Los plomos monetiformes de época romana en la isla de Mallorca. Acta Numismàtica 38: 55-85.</tei:title>
+				</reference></refDesc><noteSet><note>Trilla Pardo and Calero Gelabert suggest the token may have been issued in the city of Palmaria because of the reverse design, but there is as yet no proof to demonstrate this.</note></noteSet></descMeta>
+				</nuds>

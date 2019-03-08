@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>rometevere1888_11</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-09-06T18:01:55.986+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Rome Tevere NSc. 1888 no. 11</title>
+						<physDesc><measurementsSet><diameter>14</diameter></measurementsSet><shape>circle</shape></physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/TURS1462">
+							
+						</typeDesc>
+						<adminDesc/>
+					<refDesc><reference>
+					<tei:title>NSc. 1888, p. 439</tei:title>
+				</reference></refDesc><findspotDesc>
+					<findspot><description xml:lang="en">Rome, Tevere. Tokens emerging from works along the Tiber river in Rome in the 19th century.</description>
+						<geogname xlink:role="findspot">Rome (Italy)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>41.891775, 12.486137</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc><noteSet><note>NSc. 1888 reports only 1 example found.</note></noteSet></descMeta>
+				</nuds>

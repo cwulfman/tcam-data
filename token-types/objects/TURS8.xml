@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>TURS8</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-06-27T16:28:45.209+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">TURS 8</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<obverse><type><description xml:lang="en">Bare head of Germanicus right.</description></type><persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/germanicus">Germanicus</persname></obverse><reverse><type><description xml:lang="en">Legend around a lituus.</description></type><legend>GERMANICVS CAESAR TI AVG F</legend></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic><dateRange>
+								<fromDate standardDate="-0009">9 B.C.</fromDate>
+								<toDate standardDate="0018">A.D. 18</toDate>
+							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture></typeDesc>
+						
+					<refDesc><reference>
+					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg. https://zenon.dainst.org/Record/000917434</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

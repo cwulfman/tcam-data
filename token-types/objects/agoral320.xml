@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>agoral320</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-10-24T05:29:34.476+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Agora L320</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="0000">A.D. 0</fromDate>
+								<toDate standardDate="0268">A.D. 268</toDate>
+							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type><description xml:lang="en">Serapis standing, semi-draped, wearing modius,
+head l., r. arm raised, staff in l. hand; in field r.
+crested serpent, l. scrolls</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60374">Serapis</persname></obverse><reverse><type><description xml:lang="en">Triton with attributes and stance of Poseidon:
+bearded figure with fish-tail legs, dolphin on outstret,
+ched right hand, trident, in left. Around figure
+left to right the letters ΠΟΣΕΙ. Border of dots 15 mm. in diameter.</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60755">Triton</persname><legend>ΠΟΣΕΙ</legend></reverse><authority><corpname xlink:type="simple" xlink:role="state">Athens</corpname></authority><geographic><geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/athens">Athens</geogname><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/attica">Attica</geogname></geographic></typeDesc>
+						
+					<refDesc><reference>
+					<tei:title>Lang, M. and M. Crosby (1964). The Athenian Agora X: Weights, Measures and Tokens. Princeton, New Jersey, The American School of Classical Studies at Athens. (https://zenon.dainst.org/Record/000211771)</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

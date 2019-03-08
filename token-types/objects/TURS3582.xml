@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>TURS3582</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-09T13:30:39.2+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">TURS 3582 Mould</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+						<dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><obverse><type><description xml:lang="en">Half of a token mould made of limestone (?), back and edges of the mould have been filed smooth, either in antiquity or a more modern era. There is a central canal and smaller branches coming off this canal, but no holes for nails. The mould is for 10 circular tokens of c. 15-16mm (lowest left is 17mm), all engraved with a retrograde C. </description></type><legend>C</legend></obverse></typeDesc>
+						
+					<refDesc><reference>
+					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>sardis114.1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-10-29T13:56:40.714Z"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Sardis 114.1</title>
+						<physDesc><axis>6</axis><measurementsSet><diameter>16</diameter><weight units="g">2.33</weight></measurementsSet></physDesc>
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material><obverse><type><description xml:lang="en">Bust of Artemis right, quiver behind shoulder.</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57039">Artemis/Diana</persname></obverse><reverse><type><description xml:lang="en">Stag standing right</description></type><legend>ΕΦΕ-CIΩΝ</legend></reverse><authority><corpname xlink:type="simple" xlink:role="state">Ephesus</corpname></authority><geographic><geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/ephesus">Ephesus</geogname><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/asia">Asia</geogname></geographic><dateRange>
+								<fromDate standardDate="0000">A.D. 0</fromDate>
+								<toDate standardDate="0200">A.D. 200</toDate>
+							</dateRange></typeDesc>
+						<adminDesc/>
+					<refDesc><reference>
+					<tei:title>DeRose Evans, J. (2018). Coins from the Excavations at Sardis, Their Archaeological and Economic Contexts. Coins from the 1973 to 2013 Excavations. Cambridge, MA, Harvard University Press.</tei:title>
+				</reference></refDesc><findspotDesc>
+					<findspot><description xml:lang="en">Sardis, Theatre. American excavations 2006-2010, the fills of the theatre were greatly disturbed. DeRose Evans suggested this tesserae was used, along with the coins found in the fills, to buy food and drink.</description>
+						<geogname xlink:role="findspot">Sardes (Turkey)</geogname>
+					<gml:Point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+								<gml:coordinates>38.48856, 28.04041</gml:coordinates>
+							</gml:Point></findspot>
+				</findspotDesc><noteSet><note>DeRose Evans noted it was 'prob. a tessera'.</note></noteSet></descMeta>
+				</nuds>

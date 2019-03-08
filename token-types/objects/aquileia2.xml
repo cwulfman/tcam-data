@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>aquileia2</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-10-18T09:49:08.452+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Aquileia 2</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type><description xml:lang="en">Warrior standing front with a globe in his right hand and an inverted spear in left; palm in field</description></type></obverse><reverse><type><description xml:lang="en">Legend in three lines</description></type><legend> DONATIANVS</legend></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
+						
+					<refDesc><reference>
+					<tei:title>Brusin, G. (1934). Gli Scavi di Aquileia. Udine, Edizioni de "La Panarie". p. 146</tei:title>
+				</reference></refDesc><noteSet><note>The publication does not specify how the legend is divided over the three lines.</note></noteSet></descMeta>
+				</nuds>

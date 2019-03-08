@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>asinabnf4</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-07-12T17:27:12.414+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Bibliothèque nationale de France 4</title>
+						<physDesc><measurementsSet><diameter>11</diameter><weight units="g">1.15</weight></measurementsSet><shape>Circle</shape><conservationState><condition>Before it was lost, the specimen was in a bad condition which did not allow to identify the legend and the portrait of the Roman emperor represented on the obverse.</condition></conservationState></physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/alfoeldi_asina4">
+							
+						</typeDesc>
+						<adminDesc/>
+					<refDesc><reference>
+					<tei:title>F. Vettori, De vetustate et forma monogrammatis SS. Nominis Jesu, Romae 1747, pp. 60-64</tei:title>
+				</reference><reference>
+					<tei:title>P.M. Paciaudi, Osservazioni sopra alcune singolari e strane medaglie, Napoli 1748</tei:title>
+				</reference><reference>
+					<tei:title>C. Cavedoni, 'Médailles du temps d’Honorius portant des signes chrétiens mêlés à des types païens', Revue Numismatique 1857, pp. 309-314</tei:title>
+				</reference><reference>
+					<tei:title>F. Lenzi, 'Di alcune medaglie religiose del IV secolo', Bilychnis 2, 1913, pp. 113-131</tei:title>
+				</reference><reference>
+					<tei:title>A. Alföldi, 'Asina II. Weitere heidnische Neujahrsmünzen aus dem spätantiken Rom', GNS 2 (8), 1951, pp. 92-96</tei:title>
+				</reference></refDesc><noteSet><note>Now lost. Held in the Bibliothèque nationale de France until the date of the publication of Andreas Alföldi (1951), who published the photo of it.</note></noteSet></descMeta>
+				</nuds>

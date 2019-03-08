@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>pollentia1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-24T16:00:53.716+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Pollentia 1</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="0100">A.D. 100</fromDate>
+								<toDate standardDate="0200">A.D. 200</toDate>
+							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><obverse><type><description xml:lang="en">Gladiatorial helmet, F C and D D on either side
+</description></type><legend>F C D D</legend></obverse><reverse><type><description xml:lang="en">Gladiator of Samnite type, with helmet, shield and sword, attacking left. L DENT A CARD AE D around.
+</description></type><legend>L DENT A CARD AED</legend></reverse><authority><persname xlink:type="simple" xlink:role="authority">Lucius Dentilius Modestus</persname></authority><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/hispania_citerior">Hispania Citerior</geogname></geographic></typeDesc>
+						
+					<noteSet><note>Trilla Pardo and Calero Gelabert suggest reading the legend in the following way: F(aciendum) C(uravit) D(ecurionem) D(ecreto) / L(ucius) DENT(ilius) A CARD (an unknown magistrate) AED(ilis). Dentilius is also known from an inscription in the Museo de Mallorca (inv. 27383); the inscription is thought to date from the second century AD, which is the broad date assigned to this token type.</note></noteSet><refDesc><reference>
+					<tei:title>Trilla Pardo, E. and A. Calero Gelabert (2008). Los plomos monetiformes de época romana en la isla de Mallorca. Acta Numismàtica 38: 55-85.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

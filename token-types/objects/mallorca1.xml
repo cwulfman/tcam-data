@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>mallorca1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-24T16:36:40.315+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Mallorca 1</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="-0050">50 B.C.</fromDate>
+								<toDate standardDate="0000">A.D. 0</toDate>
+							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><obverse><type><description xml:lang="en">Bare male head right (Hercules?)</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58628">Herakles/Hercules</persname></obverse><reverse><type><description xml:lang="en">Club with Iberian legend above and Latin legend below; dotted border. </description></type><legend>Iberian script and T P AVC (or AVK)</legend></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/hispania_citerior">Hispania Citerior</geogname></geographic></typeDesc>
+						
+					<noteSet><note>The date is suggested by Trilla Pardo and Calero Gelabert on the basis of style and type.
+Specimens of this type fall into two weight categories (c. 75g and 32g respectively), and many pieces show signs of wear. It is likely then these pieces circulated as a local form of currency, possibly representing two different denominations.</note></noteSet><refDesc><reference>
+					<tei:title>Trilla Pardo, E. and A. Calero Gelabert (2008). Los plomos monetiformes de época romana en la isla de Mallorca. Acta Numismàtica 38: 55-85.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

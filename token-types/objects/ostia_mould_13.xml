@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>ostia_mould_13</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-10T16:34:13.786+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-08-10T16:39:07.666+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Ostia Mould 13</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+						<dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Half a token mould for 8 circular tokens of 7-12mm, all with the same design: a cross or X. There is a central casting channel with branches coming off it</description>
+                </type>
+                <legend>X</legend>
+            </obverse>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+        </typeDesc>
+						
+					<noteSet>
+            <note>The material is lunense marble. Pensabene wondered whether the X might mean 10.</note>
+        </noteSet>
+        <refDesc>
+            <reference>
+					<tei:title>	Pensabene, P. (2001-2003). Su alcune tessere plumbee di uso commerciale. Scienze dell'antichità. Storia archeologia antropologia. 11: 479-510.</tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

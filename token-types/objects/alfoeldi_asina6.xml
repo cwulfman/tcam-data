@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>alfoeldi_asina6</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-07-11T17:15:51.784+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-07-11T17:16:50.08+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					<semanticDeclaration>
+					<prefix>skos</prefix>
+					<namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+				</semanticDeclaration>
+    </control>
+					<descMeta>
+						<title xml:lang="en">Alföldi ASINA 6</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <dateRange>
+								<fromDate standardDate="0395">395</fromDate>
+								<toDate standardDate="0423">423</toDate>
+							</dateRange>
+            <obverse>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/alexander_iii">Alexander III of Macedon</persname>
+                <legend>ALEXS-ANDRI</legend>
+                <type>
+                    <description xml:lang="en">Bust of Alexander the Great right, wearing lion’s skin over head, its paws knotted on his chest.</description>
+                </type>
+            </obverse>
+            <reverse>
+                <type>
+                    <description xml:lang="en">Erotic scene showing an ithyphallic man standing left, who touches the back of a woman right, leaning against a vase, and turned towards the man.</description>
+                </type>
+            </reverse>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome" certainty="Uncertain">Rome</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+        </typeDesc>
+						
+					<refDesc>
+            <reference>
+					<tei:title>H. Cohen, Description Historique des Monnaies frappées sous l’empire romain communément appelées médailles imperials, VIII, Paris 1892</tei:title>
+				</reference>
+            <reference>
+					<tei:title>F. Lenzi, 'Di alcune medaglie religiose del IV secolo', Bilychnis 2, 1913, pp. 113-131</tei:title>
+				</reference>
+            <reference>
+					<tei:title>A. Alföldi, 'Asina II. Weitere heidnische Neujahrsmünzen aus dem spätantiken Rom', GNS 2 (8), 1951, pp. 92-96</tei:title>
+				</reference>
+        </refDesc>
+    </descMeta>
+				</nuds>

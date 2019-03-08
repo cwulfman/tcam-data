@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>BM.1890.0514.1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-06-15T12:46:14.126+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-06-15T13:04:03.417+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent>
+        <maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-06-15T14:56:07.108+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent>
+        <maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2018-06-21T11:47:51.73+01:00"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">The British Museum 1890,0514.1</title>
+						<physDesc>
+            <measurementsSet>
+                <height>107</height>
+                <weight units="g">419.53</weight>
+                <width>81</width>
+            </measurementsSet>
+            <shape>rectangle</shape>
+        </physDesc>
+						<typeDesc xlink:href="https://coins.warwick.ac.uk/token-types/id/Rome_mould_26">
+							
+						</typeDesc>
+						<adminDesc>
+            <collection>The British Museum</collection>
+        </adminDesc>
+					<findspotDesc>
+					<findspot>
+                <description xml:lang="en">Rome: no further information.
+Excavation (antiquarian).
+
+The British Museum accession records state 'Excavated in Rome'.</description>
+						<geogname xlink:role="findspot" xlink:href="http://www.geonames.org/3169070">Rome (Italy)</geogname>
+					</findspot>
+				</findspotDesc>
+    </descMeta>
+				</nuds>

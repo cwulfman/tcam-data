@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>TURS545</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-09-07T17:13:28.077+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">TURS 545</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/cast">Cast</manufacture><material xlink:type="simple" xlink:href="http://nomisma.org/id/pb">Lead</material><obverse><type><description xml:lang="en">Two spectators facing right applauding</description></type></obverse><reverse><type><description xml:lang="en">Legend in two lines: AP / PRO</description></type><legend>AP PRO</legend></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
+						
+					<noteSet><note>Rostovtzeff suggested that PRO was perhaps an abbreviation of procurator.</note></noteSet><refDesc><reference>
+					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>

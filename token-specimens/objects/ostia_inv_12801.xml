@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>ostia_inv_12801</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2019-02-07T15:32:21.14Z"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Ostia Antiquarium inv. 12801</title>
+						<physDesc><measurementsSet><height>11</height><width>13</width></measurementsSet><shape>quadrangular</shape></physDesc>
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/token">Token</objectType>
+						<dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material><obverse><type><description xml:lang="en">Horse running right</description></type></obverse><reverse><type><description xml:lang="en">blank</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
+						<adminDesc><collection>Ostia Antiquarium</collection></adminDesc>
+					<refDesc><reference>
+					<tei:title>Giornale degli Scavi 1918, no. 11 p. 39</tei:title>
+				</reference></refDesc><findspotDesc>
+					<findspot><description xml:lang="en">Ostia, from the ruins to the NW of the eastern gate of the city.</description>
+						<geogname xlink:role="findspot" xlink:href="http://www.geonames.org/8378691">Ostia Antica (Italy)</geogname>
+					</findspot>
+				</findspotDesc><noteSet><note>Possibly Type 2 of Stannard, C. (2015). Shipping tesserae from Ostia and Minturnae? Numismatic Chronicle 175: 147-154, but needs visual confirmation.
+</note></noteSet></descMeta>
+				</nuds>

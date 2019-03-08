@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="physical">
+					<control>
+						<recordId>ostiafullonica1</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>revised</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-10-04T12:53:09.052+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						<maintenanceEvent>
+					<eventType>revised</eventType>
+					<eventDateTime standardDateTime="2019-02-08T15:58:57.816Z"/>
+					<agentType>human</agentType>
+					<agent>admin</agent>
+				</maintenanceEvent></maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">Ostia Fullonica 1</title>
+						<physDesc/>
+						<typeDesc><objectType xlink:type="simple" xlink:href="http://nomisma.org/id/token">Token</objectType>
+							
+						<material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><obverse><type><description xml:lang="en">Palm branch</description></type></obverse><reverse><type><description xml:lang="en">Figure within double wreath</description></type></reverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic></typeDesc>
+						<adminDesc><collection>Ostia Antiquarium</collection></adminDesc>
+					<refDesc>
+            <reference>
+					<tei:title>Pietrogrande, A. L., Ed. (1976). Scavi di Ostia VIII: Le Fulloniche. Rome, Istituto Poligrafico dello Stato. p. 24</tei:title>
+				</reference>
+        </refDesc>
+        <findspotDesc>
+					<findspot>
+                <description xml:lang="en">Ostia, Fullonica flanked by the via Fullonica and  via delle Corporazioni. 1912 excavations. The publication notes the information was provided by Professor Squarciapino but there is no further information on the context.</description>
+						<geogname xlink:role="findspot" xlink:href="http://www.geonames.org/8378691">Ostia Antica (Italy)</geogname>
+					
+            </findspot>
+				</findspotDesc>
+        <noteSet>
+            <note>The publication erroneously gives the references as "Cohen VII, p. 272 n. 8" The closest type published in Cohen is VII p. 272 no. 48. The Giornale degli Scavi, dated 8.9.1959 (no. 3) lists a piece of this type found in the Fullonica of the Caserma dei Vigili, and this is very likely the same piece. The Giornale records that the piece was found during cleaning in an area to the west of the fullonica. Also found were a coin of Philip the Arab (Cohen V no. 140), and of Salonina (Cohen V no. 60).</note>
+        </noteSet>
+    </descMeta>
+				</nuds>

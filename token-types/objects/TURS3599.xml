@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:gml="http://www.opengis.net/gml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+					<control>
+						<recordId>TURS3599</recordId>
+						<publicationStatus>approved</publicationStatus>
+						<maintenanceStatus>new</maintenanceStatus>
+						<maintenanceAgency>
+							<agencyName>University of Warwick</agencyName>
+						</maintenanceAgency>
+						<maintenanceHistory>
+							<maintenanceEvent>
+								<eventType>created</eventType>
+								<eventDateTime standardDateTime="2018-08-10T13:20:20.932+01:00"/>
+								<agentType>human</agentType>
+								<agent>admin</agent>
+							</maintenanceEvent>
+						</maintenanceHistory>
+						<rightsStmt>
+							<copyrightHolder>University of Warwick</copyrightHolder>
+							<license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+						</rightsStmt>
+						<semanticDeclaration>
+							<prefix>nmo</prefix>
+							<namespace>http://nomisma.org/ontology#</namespace>
+						</semanticDeclaration>
+					</control>
+					<descMeta>
+						<title xml:lang="en">TURS 3599 Mould</title>
+						
+						<typeDesc>
+							<objectType xlink:href="http://nomisma.org/id/mould">Mould</objectType>
+						<material xlink:type="simple" xlink:href="http://nomisma.org/id/palombino_marble">Palombino Marble</material><dateRange>
+								<fromDate standardDate="0001">A.D. 1</fromDate>
+								<toDate standardDate="0300">A.D. 300</toDate>
+							</dateRange><obverse><type><description xml:lang="en">A mould half for 9 circular tokens of differing designs. On the right the designs are: Mars, armed standing right holding spear in right hand and shield in left (18mm), Victory advancing right holding wreath and palm (18mm), MVN/ICIP (18mm), PAX (15mm). On the left the types are: IVV/ENT (18mm), SECV/RIT (18mm), M/ACILI (18mm), Victory riding right in a biga holding wreath (18mm) and FELI/CIT. There is a central channel.</description></type><legend>MVNICIP PAX IVVENT SECVRIT M ACILI FELICIT</legend><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59284">Ares/Mars</persname><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60915">Nike/Victoria/Victory</persname><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/76227">Pax</persname></obverse><geographic><geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname></geographic><authority><persname xlink:type="simple" xlink:role="authority">M Acili</persname></authority></typeDesc>
+						
+					<refDesc><reference>
+					<tei:title>Rostowzew, M. (1903). Tesserarum urbis romae et suburbi. St. Petersburg.</tei:title>
+				</reference></refDesc></descMeta>
+				</nuds>
